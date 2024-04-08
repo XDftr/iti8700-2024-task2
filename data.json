@@ -1,0 +1,86 @@
+[
+  {
+    "prompt": "There are two doors, one leads to a treasure, and the other leads to a trap. One door is painted red and the other blue. You know the following: If a door leads to the treasure, it must be painted red. Is it possible for the treasure to be behind the blue door?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "A plant needs water to survive. If a plant does not get water, it will die. You have a plant that you forgot to water for a month, and it has not rained. Did the plant survive?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "If all cats are afraid of water, and Tom is afraid of water, is Tom necessarily a cat?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "A librarian is stacking books on a shelf. If a book is larger than the space available on the shelf, it cannot be placed on that shelf. The librarian has one large book left and only a small space on the shelf. Can the librarian place the large book on the shelf?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "Every flibbertigibbet laughs in the presence of a doodlebug. You hear a flibbertigibbet laughing. Is there a doodlebug present?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "In a fantasy land, dragons only sleep during the day, and knights only quest during the night. It's daytime. Is there a dragon awake?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "If a wizard casts a spell only when it rains, and it is currently sunny, did the wizard cast a spell?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "Every elf can make either 10 small toys or 5 large toys in a day. If all elves decide to make only large toys today, will an elf make more than 6 toys today?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "Every book in the library has a unique number. If two books are found with the same number, is one of the labels incorrect?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "A chef says he can only prepare a special dish when he has at least three different types of vegetables. Today, he has carrots, potatoes, and onions. Can the chef prepare the special dish today?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "John had three apples. Mike has two pears. Pears and apples are fruits. Mike eats two pears. Mike gives all his fruits to John. John eats one apple. How many fruits does John have?",
+    "expected_answer": "2"
+  },
+  {
+    "prompt": "If it rains, the ground gets wet. It's raining outside. Is the ground wet?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "A cat always lands on its feet. The cat jumps off a low wall. Does the cat land on its feet?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "All dogs bark. Luna is a dog. Does Luna bark?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "Ice melts when heated. You put ice in a warm room. Does the ice melt?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "Every bicycle has two wheels. You see a vehicle with three wheels. Is it a bicycle?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "Birds can fly. Penguins are birds. Penguins wings dont work for flight. Can penguins fly?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "You need a ticket to enter the zoo. You have a ticket. A thief steals your ticket. Can you enter the zoo?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "Plants need sunlight to grow. A plant is kept in a dark room. The plant is taken outside. Will the plant grow?",
+    "expected_answer": "Yes"
+  },
+  {
+    "prompt": "All squares have four sides. A shape has three sides. Is it a square?",
+    "expected_answer": "No"
+  },
+  {
+    "prompt": "If you mix red and blue paint, you get purple paint. You mix red and blue paint. You add in yellow. Is the paint Purple?",
+    "expected_answer": "No"
+  }
+]
