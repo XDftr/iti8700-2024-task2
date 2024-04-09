@@ -1,0 +1,242 @@
+Total: 40, GPT3 True: 25, GPT4 True: 30, Both wrong: 6
+
+Data: Bob is big. Harry is not quiet. All red, kind people are blue. If Harry is kind and Harry is not quiet then Harry is not big. If Bob is blue then Bob is kind. If Bob is red then Bob is blue. If someone is kind and not quiet then they are blue. All big, round people are not kind. If someone is quiet and not blue then they are kind. If someone is blue and rough then they are big. 
+Question: Harry is not quiet.
+Expected: True
+GPT3.5:   True
+GPT4:     True
+
+Data: Bob is big. Harry is not quiet. All red, kind people are blue. If Harry is kind and Harry is not quiet then Harry is not big. If Bob is blue then Bob is kind. If Bob is red then Bob is blue. If someone is kind and not quiet then they are blue. All big, round people are not kind. If someone is quiet and not blue then they are kind. If someone is blue and rough then they are big. 
+Question: Bob is not big.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Bob is big. Harry is not quiet. All red, kind people are blue. If Harry is kind and Harry is not quiet then Harry is not big. If Bob is blue then Bob is kind. If Bob is red then Bob is blue. If someone is kind and not quiet then they are blue. All big, round people are not kind. If someone is quiet and not blue then they are kind. If someone is blue and rough then they are big. 
+Question: Harry is not big.
+Expected: True
+GPT3.5:   True
+GPT4:     False
+
+Data: Bob is big. Harry is not quiet. All red, kind people are blue. If Harry is kind and Harry is not quiet then Harry is not big. If Bob is blue then Bob is kind. If Bob is red then Bob is blue. If someone is kind and not quiet then they are blue. All big, round people are not kind. If someone is quiet and not blue then they are kind. If someone is blue and rough then they are big. 
+Question: Bob is round.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: The bald eagle visits the cat. If someone does not visit the tiger then they chase the tiger. If someone is cold then they do not need the cat. The tiger chases the bald eagle. If someone is rough and they need the cat then the cat chases the bald eagle. The cat does not chase the bald eagle. 
+Question: The cat does not chase the bald eagle.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: The bald eagle visits the cat. If someone does not visit the tiger then they chase the tiger. If someone is cold then they do not need the cat. The tiger chases the bald eagle. If someone is rough and they need the cat then the cat chases the bald eagle. The cat does not chase the bald eagle. 
+Question: The bald eagle does not visit the cat.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: The bald eagle visits the cat. If someone does not visit the tiger then they chase the tiger. If someone is cold then they do not need the cat. The tiger chases the bald eagle. If someone is rough and they need the cat then the cat chases the bald eagle. The cat does not chase the bald eagle. 
+Question: The tiger does not need the tiger.
+Expected: True
+GPT3.5:   False
+GPT4:     False
+
+Data: The bald eagle visits the cat. If someone does not visit the tiger then they chase the tiger. If someone is cold then they do not need the cat. The tiger chases the bald eagle. If someone is rough and they need the cat then the cat chases the bald eagle. The cat does not chase the bald eagle. 
+Question: The cat is green.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Charlie is rough. All rough things are kind. If something is quiet and cold then it is white. Kind, furry things are quiet. Erin is quiet. 
+Question: Erin is quiet.
+Expected: True
+GPT3.5:   True
+GPT4:     True
+
+Data: Charlie is rough. All rough things are kind. If something is quiet and cold then it is white. Kind, furry things are quiet. Erin is quiet. 
+Question: Charlie is not rough.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Charlie is rough. All rough things are kind. If something is quiet and cold then it is white. Kind, furry things are quiet. Erin is quiet. 
+Question: Erin is not kind.
+Expected: True
+GPT3.5:   False
+GPT4:     False
+
+Data: Charlie is rough. All rough things are kind. If something is quiet and cold then it is white. Kind, furry things are quiet. Erin is quiet. 
+Question: Erin is cold.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Gary is big. Gary is rough. Erin is nice. Gary is blue. Charlie is nice. Gary is nice. Bob is blue. Bob is not rough. Charlie is cold. Charlie is not white. Bob is green. Bob is cold. If someone is big and not rough then they are cold. 
+Question: Gary is rough.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: Gary is big. Gary is rough. Erin is nice. Gary is blue. Charlie is nice. Gary is nice. Bob is blue. Bob is not rough. Charlie is cold. Charlie is not white. Bob is green. Bob is cold. If someone is big and not rough then they are cold. 
+Question: Gary is not big.
+Expected: False
+GPT3.5:   True
+GPT4:     False
+
+Data: Gary is big. Gary is rough. Erin is nice. Gary is blue. Charlie is nice. Gary is nice. Bob is blue. Bob is not rough. Charlie is cold. Charlie is not white. Bob is green. Bob is cold. If someone is big and not rough then they are cold. 
+Question: Gary is not cold.
+Expected: True
+GPT3.5:   True
+GPT4:     True
+
+Data: Gary is big. Gary is rough. Erin is nice. Gary is blue. Charlie is nice. Gary is nice. Bob is blue. Bob is not rough. Charlie is cold. Charlie is not white. Bob is green. Bob is cold. If someone is big and not rough then they are cold. 
+Question: Erin is rough.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: The mouse is blue. The bear chases the mouse. The tiger is nice. The mouse chases the bear. The bear is blue. The tiger visits the mouse. The bear chases the tiger. If something chases the tiger and it chases the mouse then the tiger is blue. The tiger chases the mouse. The mouse visits the bear. The mouse chases the tiger. The mouse is nice. The tiger is blue. The bear visits the mouse. If something chases the bear and the bear visits the tiger then it visits the tiger. The bear sees the mouse. If something sees the mouse and it is green then the mouse visits the bear. The bear is green. The bear is big. 
+Question: The bear visits the mouse.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: The mouse is blue. The bear chases the mouse. The tiger is nice. The mouse chases the bear. The bear is blue. The tiger visits the mouse. The bear chases the tiger. If something chases the tiger and it chases the mouse then the tiger is blue. The tiger chases the mouse. The mouse visits the bear. The mouse chases the tiger. The mouse is nice. The tiger is blue. The bear visits the mouse. If something chases the bear and the bear visits the tiger then it visits the tiger. The bear sees the mouse. If something sees the mouse and it is green then the mouse visits the bear. The bear is green. The bear is big. 
+Question: The bear is not blue.
+Expected: False
+GPT3.5:   True.
+GPT4:     True
+
+Data: The mouse is blue. The bear chases the mouse. The tiger is nice. The mouse chases the bear. The bear is blue. The tiger visits the mouse. The bear chases the tiger. If something chases the tiger and it chases the mouse then the tiger is blue. The tiger chases the mouse. The mouse visits the bear. The mouse chases the tiger. The mouse is nice. The tiger is blue. The bear visits the mouse. If something chases the bear and the bear visits the tiger then it visits the tiger. The bear sees the mouse. If something sees the mouse and it is green then the mouse visits the bear. The bear is green. The bear is big. 
+Question: The bear does not visit the tiger.
+Expected: True
+GPT3.5:   True
+GPT4:     False
+
+Data: The mouse is blue. The bear chases the mouse. The tiger is nice. The mouse chases the bear. The bear is blue. The tiger visits the mouse. The bear chases the tiger. If something chases the tiger and it chases the mouse then the tiger is blue. The tiger chases the mouse. The mouse visits the bear. The mouse chases the tiger. The mouse is nice. The tiger is blue. The bear visits the mouse. If something chases the bear and the bear visits the tiger then it visits the tiger. The bear sees the mouse. If something sees the mouse and it is green then the mouse visits the bear. The bear is green. The bear is big. 
+Question: The tiger visits the bear.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: The squirrel is rough. The squirrel eats the rabbit. The rabbit is nice. The rabbit is cold. The rabbit is rough. The squirrel is green. The squirrel is cold. The rabbit is blue. The rabbit likes the squirrel. If someone visits the rabbit and the rabbit likes the squirrel then they eat the squirrel. The squirrel is blue. The squirrel is nice. The squirrel likes the rabbit. The rabbit visits the squirrel. The rabbit eats the squirrel. The rabbit is green. The squirrel visits the rabbit. 
+Question: The rabbit is blue.
+Expected: True
+GPT3.5:   False
+GPT4:     False
+
+Data: The squirrel is rough. The squirrel eats the rabbit. The rabbit is nice. The rabbit is cold. The rabbit is rough. The squirrel is green. The squirrel is cold. The rabbit is blue. The rabbit likes the squirrel. If someone visits the rabbit and the rabbit likes the squirrel then they eat the squirrel. The squirrel is blue. The squirrel is nice. The squirrel likes the rabbit. The rabbit visits the squirrel. The rabbit eats the squirrel. The rabbit is green. The squirrel visits the rabbit. 
+Question: The squirrel is not blue.
+Expected: False
+GPT3.5:   True.
+GPT4:     False
+
+Data: The squirrel is rough. The squirrel eats the rabbit. The rabbit is nice. The rabbit is cold. The rabbit is rough. The squirrel is green. The squirrel is cold. The rabbit is blue. The rabbit likes the squirrel. If someone visits the rabbit and the rabbit likes the squirrel then they eat the squirrel. The squirrel is blue. The squirrel is nice. The squirrel likes the rabbit. The rabbit visits the squirrel. The rabbit eats the squirrel. The rabbit is green. The squirrel visits the rabbit. 
+Question: The rabbit does not like the rabbit.
+Expected: True
+GPT3.5:   False
+GPT4:     False
+
+Data: The squirrel is rough. The squirrel eats the rabbit. The rabbit is nice. The rabbit is cold. The rabbit is rough. The squirrel is green. The squirrel is cold. The rabbit is blue. The rabbit likes the squirrel. If someone visits the rabbit and the rabbit likes the squirrel then they eat the squirrel. The squirrel is blue. The squirrel is nice. The squirrel likes the rabbit. The rabbit visits the squirrel. The rabbit eats the squirrel. The rabbit is green. The squirrel visits the rabbit. 
+Question: The squirrel visits the squirrel.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If something is quiet and furry then it is young. If Anne is kind and Anne is quiet then Anne is young. Anne is white. Anne is round. Anne is nice. 
+Question: Anne is white.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: If something is quiet and furry then it is young. If Anne is kind and Anne is quiet then Anne is young. Anne is white. Anne is round. Anne is nice. 
+Question: Anne is not nice.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If something is quiet and furry then it is young. If Anne is kind and Anne is quiet then Anne is young. Anne is white. Anne is round. Anne is nice. 
+Question: Anne is not young.
+Expected: True
+GPT3.5:   True
+GPT4:     False
+
+Data: If something is quiet and furry then it is young. If Anne is kind and Anne is quiet then Anne is young. Anne is white. Anne is round. Anne is nice. 
+Question: Anne is furry.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Harry is smart. Dave is nice. Fiona is smart. Harry is round. All green, nice things are white. Harry is red. Gary is smart. Fiona is green. Gary is nice. All furry, red things are white. Round, smart things are white. Furry things are smart. Harry is nice. Harry is furry. Dave is white. All nice, furry things are green. Dave is furry. Dave is red. Gary is white. If Dave is furry and Dave is smart then Dave is nice. Fiona is white. 
+Question: Harry is red.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: Harry is smart. Dave is nice. Fiona is smart. Harry is round. All green, nice things are white. Harry is red. Gary is smart. Fiona is green. Gary is nice. All furry, red things are white. Round, smart things are white. Furry things are smart. Harry is nice. Harry is furry. Dave is white. All nice, furry things are green. Dave is furry. Dave is red. Gary is white. If Dave is furry and Dave is smart then Dave is nice. Fiona is white. 
+Question: Harry is not furry.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: Harry is smart. Dave is nice. Fiona is smart. Harry is round. All green, nice things are white. Harry is red. Gary is smart. Fiona is green. Gary is nice. All furry, red things are white. Round, smart things are white. Furry things are smart. Harry is nice. Harry is furry. Dave is white. All nice, furry things are green. Dave is furry. Dave is red. Gary is white. If Dave is furry and Dave is smart then Dave is nice. Fiona is white. 
+Question: Gary is not green.
+Expected: True
+GPT3.5:   True
+GPT4:     True
+
+Data: Harry is smart. Dave is nice. Fiona is smart. Harry is round. All green, nice things are white. Harry is red. Gary is smart. Fiona is green. Gary is nice. All furry, red things are white. Round, smart things are white. Furry things are smart. Harry is nice. Harry is furry. Dave is white. All nice, furry things are green. Dave is furry. Dave is red. Gary is white. If Dave is furry and Dave is smart then Dave is nice. Fiona is white. 
+Question: Dave is round.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If someone is not furry then they are rough. Bob is rough. Dave is white. If someone is kind and not furry then they are white. Dave is kind. Dave is furry. If someone is not white then they are not big. If Harry is rough then Harry is kind. If Fiona is big and Fiona is not rough then Fiona is not kind. Fiona is blue. All big people are furry. Fiona is quiet. Harry is kind. If someone is rough and blue then they are quiet. Bob is quiet. Fiona is rough. Kind people are furry. Fiona is furry. 
+Question: Bob is quiet.
+Expected: True
+GPT3.5:   False
+GPT4:     False
+
+Data: If someone is not furry then they are rough. Bob is rough. Dave is white. If someone is kind and not furry then they are white. Dave is kind. Dave is furry. If someone is not white then they are not big. If Harry is rough then Harry is kind. If Fiona is big and Fiona is not rough then Fiona is not kind. Fiona is blue. All big people are furry. Fiona is quiet. Harry is kind. If someone is rough and blue then they are quiet. Bob is quiet. Fiona is rough. Kind people are furry. Fiona is furry. 
+Question: Fiona is not quiet.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If someone is not furry then they are rough. Bob is rough. Dave is white. If someone is kind and not furry then they are white. Dave is kind. Dave is furry. If someone is not white then they are not big. If Harry is rough then Harry is kind. If Fiona is big and Fiona is not rough then Fiona is not kind. Fiona is blue. All big people are furry. Fiona is quiet. Harry is kind. If someone is rough and blue then they are quiet. Bob is quiet. Fiona is rough. Kind people are furry. Fiona is furry. 
+Question: Bob is not white.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: If someone is not furry then they are rough. Bob is rough. Dave is white. If someone is kind and not furry then they are white. Dave is kind. Dave is furry. If someone is not white then they are not big. If Harry is rough then Harry is kind. If Fiona is big and Fiona is not rough then Fiona is not kind. Fiona is blue. All big people are furry. Fiona is quiet. Harry is kind. If someone is rough and blue then they are quiet. Bob is quiet. Fiona is rough. Kind people are furry. Fiona is furry. 
+Question: Bob is kind.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If someone chases the mouse then the mouse likes the lion. If someone chases the dog then the dog is green. If someone sees the mouse then the mouse is green. The lion sees the mouse. The lion is blue. The mouse likes the dog. If the dog is blue and the dog sees the mouse then the mouse sees the lion. If someone likes the dog then they see the dog. The dog sees the mouse. The mouse sees the dog. The lion likes the mouse. The lion chases the mouse. The dog is rough. If someone likes the mouse and the mouse is blue then they chase the dog. The dog is kind. The dog sees the lion. 
+Question: The dog sees the lion.
+Expected: True
+GPT3.5:   False
+GPT4:     True
+
+Data: If someone chases the mouse then the mouse likes the lion. If someone chases the dog then the dog is green. If someone sees the mouse then the mouse is green. The lion sees the mouse. The lion is blue. The mouse likes the dog. If the dog is blue and the dog sees the mouse then the mouse sees the lion. If someone likes the dog then they see the dog. The dog sees the mouse. The mouse sees the dog. The lion likes the mouse. The lion chases the mouse. The dog is rough. If someone likes the mouse and the mouse is blue then they chase the dog. The dog is kind. The dog sees the lion. 
+Question: The mouse does not see the dog.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
+Data: If someone chases the mouse then the mouse likes the lion. If someone chases the dog then the dog is green. If someone sees the mouse then the mouse is green. The lion sees the mouse. The lion is blue. The mouse likes the dog. If the dog is blue and the dog sees the mouse then the mouse sees the lion. If someone likes the dog then they see the dog. The dog sees the mouse. The mouse sees the dog. The lion likes the mouse. The lion chases the mouse. The dog is rough. If someone likes the mouse and the mouse is blue then they chase the dog. The dog is kind. The dog sees the lion. 
+Question: The lion does not chase the dog.
+Expected: True
+GPT3.5:   True
+GPT4:     The text does not provide information to support or negate the statement.
+
+Data: If someone chases the mouse then the mouse likes the lion. If someone chases the dog then the dog is green. If someone sees the mouse then the mouse is green. The lion sees the mouse. The lion is blue. The mouse likes the dog. If the dog is blue and the dog sees the mouse then the mouse sees the lion. If someone likes the dog then they see the dog. The dog sees the mouse. The mouse sees the dog. The lion likes the mouse. The lion chases the mouse. The dog is rough. If someone likes the mouse and the mouse is blue then they chase the dog. The dog is kind. The dog sees the lion. 
+Question: The lion is kind.
+Expected: False
+GPT3.5:   False
+GPT4:     False
+
