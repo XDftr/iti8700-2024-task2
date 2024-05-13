@@ -1,0 +1,7 @@
+% Rule to find products developed in Estonia
+triple(Product, "schema:locationCreated", "yago:Estonia") => developedInEstonia(Product).
+
+% Mark product as developed in Estonia
+developedInEstonia(Product) => $ans(Product, "Developed in Estonia").
+
+% .\gkc .\formatted_data\created-in-estonia_formatted.txt .\rules6.txt -strategy .\multi.txt

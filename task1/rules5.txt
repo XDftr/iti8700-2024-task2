@@ -1,0 +1,7 @@
+% Rule to find entities located in Estonia
+triple(Entity, "schema:location", "yago:Estonia") => locatedInEstonia(Entity).
+
+% Mark entity as located in Estonia
+locatedInEstonia(Entity) => $ans(Entity, "Located in Estonia").
+
+% .\gkc .\formatted_data\created-in-estonia_formatted.txt .\rules5.txt -strategy .\multi.txt

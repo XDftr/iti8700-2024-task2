@@ -1,0 +1,935 @@
+@prefix yago: <http://yago-knowledge.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix data: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix s: <http://www.wikidata.org/entity/statement/> .
+@prefix ref: <http://www.wikidata.org/reference/> .
+@prefix v: <http://www.wikidata.org/value/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wpq: <http://www.wikidata.org/prop/quant/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix ys: <http://yago-knowledge.org/schema#> .
+
+yago:Estonia	schema:populationNumber	"+1357739"^^xsd:decimal	.
+yago:Estonia	owl:sameAs	wd:Q191	.
+yago:Estonia	schema:neighbors	yago:Baltic_Sea	.
+yago:Estonia	schema:neighbors	yago:Lake_Peipus	.
+yago:Estonia	schema:officialLanguage	yago:Estonian_language_generic_instance	.
+yago:Estonia	yago:replaces	yago:Governorate_of_Livonia	.
+yago:Estonia	yago:replaces	yago:Pskov_Governorate	.
+yago:Estonia	yago:replaces	yago:Governorate_of_Estonia	.
+yago:Estonia	schema:url	"https://www.eesti.ee/en/"^^xsd:anyURI	.
+yago:Estonia	schema:url	"https://www.eesti.ee/ru/"^^xsd:anyURI	.
+yago:Estonia	schema:url	"https://www.eesti.ee/et/"^^xsd:anyURI	.
+yago:Estonia	schema:demonym	"estonià"	.
+yago:Estonia	schema:demonym	"estonianu"	.
+yago:Estonia	schema:demonym	"eestlased"	.
+yago:Estonia	schema:demonym	"észt"	.
+yago:Estonia	schema:demonym	"Estonien"	.
+yago:Estonia	schema:demonym	"إستونيون"	.
+yago:Estonia	schema:demonym	"èstono"	.
+yago:Estonia	schema:demonym	"Εσθονή"	.
+yago:Estonia	schema:demonym	"estoniană"	.
+yago:Estonia	schema:demonym	"virolaiset"	.
+yago:Estonia	schema:demonym	"ester"	.
+yago:Estonia	schema:demonym	"estoni"	.
+yago:Estonia	schema:demonym	"אסטונית"	.
+yago:Estonia	schema:demonym	"estoniana"	.
+yago:Estonia	schema:demonym	"estonian"	.
+yago:Estonia	schema:demonym	"Εσθονοί"	.
+yago:Estonia	schema:demonym	"эстонец"	.
+yago:Estonia	schema:demonym	"Estin"	.
+yago:Estonia	schema:demonym	"естонці"	.
+yago:Estonia	schema:demonym	"естонка"	.
+yago:Estonia	schema:demonym	"estonieni"	.
+yago:Estonia	schema:demonym	"эстонцы"	.
+yago:Estonia	schema:demonym	"èstona"	.
+yago:Estonia	schema:demonym	"إستونية"	.
+yago:Estonia	schema:demonym	"эстонка"	.
+yago:Estonia	schema:demonym	"Lestiyänan"	.
+yago:Estonia	schema:demonym	"Este"	.
+yago:Estonia	schema:demonym	"إستوني"	.
+yago:Estonia	schema:demonym	"Estoniano"	.
+yago:Estonia	schema:demonym	"Εσθονός"	.
+yago:Estonia	schema:demonym	"esti"	.
+yago:Estonia	schema:demonym	"אסטוני"	.
+yago:Estonia	schema:demonym	"igauņi"	.
+yago:Estonia	schema:demonym	"estlænder"	.
+yago:Estonia	schema:demonym	"Estonian"	.
+yago:Estonia	schema:demonym	"естонець"	.
+yago:Estonia	schema:demonym	"èstone"	.
+yago:Estonia	schema:demonym	"Estonienne"	.
+yago:Estonia	schema:demonym	"эстонки"	.
+yago:Estonia	schema:demonym	"estoniana"	.
+yago:Estonia	schema:demonym	"এস্তোনীয়"	.
+yago:Estonia	schema:demonym	"Est"	.
+yago:Estonia	schema:demonym	"estnisch"	.
+yago:Estonia	schema:demonym	"estone"	.
+yago:Estonia	schema:demonym	"èstoni"	.
+yago:Estonia	schema:neighbors	yago:Latvia	.
+yago:Estonia	schema:neighbors	yago:Russia	.
+yago:Estonia	schema:leader	yago:Kaja_Kallas	.
+yago:Estonia	schema:leader	yago:Alar_Karis	.
+yago:Estonia	schema:area	"+45339"^^xsd:decimal	.
+yago:Estonia	schema:memberOf	yago:International_Centre_for_Settlement_of_Investment_Disputes	.
+yago:Estonia	schema:memberOf	yago:NATO	.
+yago:Estonia	schema:memberOf	yago:International_Energy_Agency	.
+yago:Estonia	schema:memberOf	yago:Movement_Coordination_Centre_Europe	.
+yago:Estonia	schema:memberOf	yago:Interpol	.
+yago:Estonia	schema:memberOf	yago:Eurocontrol	.
+yago:Estonia	schema:memberOf	yago:International_Atomic_Energy_Agency	.
+yago:Estonia	schema:memberOf	yago:Organisation_for_the_Prohibition_of_Chemical_Weapons	.
+yago:Estonia	schema:memberOf	yago:Group_on_Earth_Observations	.
+yago:Estonia	schema:memberOf	yago:Council_of_Europe	.
+yago:Estonia	schema:memberOf	yago:Baltic_Assembly	.
+yago:Estonia	schema:memberOf	yago:International_Bank_for_Reconstruction_and_Development	.
+yago:Estonia	schema:memberOf	yago:League_of_Nations_generic_instance	.
+yago:Estonia	schema:memberOf	yago:European_Union	.
+yago:Estonia	schema:memberOf	yago:UNESCO	.
+yago:Estonia	schema:memberOf	yago:Strategic_Airlift_Capability	.
+yago:Estonia	schema:memberOf	yago:Council_of_the_Baltic_Sea_States	.
+yago:Estonia	schema:memberOf	yago:Nuclear_Suppliers_Group	.
+yago:Estonia	schema:memberOf	yago:World_Meteorological_Organization	.
+yago:Estonia	schema:memberOf	yago:International_Telecommunication_Union	.
+yago:Estonia	schema:memberOf	yago:World_Health_Organization	.
+yago:Estonia	schema:memberOf	yago:World_Trade_Organization	.
+yago:Estonia	schema:memberOf	yago:Australia_Group	.
+yago:Estonia	schema:memberOf	yago:International_Finance_Corporation	.
+yago:Estonia	schema:memberOf	yago:United_Nations_generic_instance	.
+yago:Estonia	schema:memberOf	yago:Nordic_Battlegroup	.
+yago:Estonia	schema:memberOf	yago:Multilateral_Investment_Guarantee_Agency	.
+yago:Estonia	schema:memberOf	yago:Organization_for_Security_and_Co-operation_in_Europe	.
+yago:Estonia	schema:memberOf	yago:OECD	.
+yago:Estonia	schema:memberOf	yago:Universal_Postal_Union	.
+yago:Estonia	schema:memberOf	yago:International_Development_Association	.
+yago:Estonia	schema:memberOf	yago:International_Hydrographic_Organization	.
+yago:Estonia	schema:unemploymentRate	"+8"^^xsd:decimal	.
+yago:Estonia	schema:unemploymentRate	"+5.4"^^xsd:decimal	.
+yago:Estonia	schema:highestPoint	yago:Suur_Munamägi	.
+yago:Estonia	schema:lowestPoint	yago:Baltic_Sea	.
+yago:Estonia	schema:sameAs	"/m/02kmm"	.
+yago:Estonia	schema:sameAs	"/m/0k2qk2v"	.
+yago:Estonia	schema:geo	"Point(26 59)"^^geo:wktLiteral	.
+yago:Estonia	yago:capital	yago:Tallinn	.
+yago:Estonia	schema:administrates	yago:Valga_County	.
+yago:Estonia	schema:administrates	yago:Harju_County	.
+yago:Estonia	schema:administrates	yago:Rapla_County	.
+yago:Estonia	schema:administrates	yago:Tartu_County	.
+yago:Estonia	schema:administrates	yago:Saare_County	.
+yago:Estonia	schema:administrates	yago:Võru_County	.
+yago:Estonia	schema:administrates	yago:Viljandi_County	.
+yago:Estonia	schema:administrates	yago:Pärnu_County	.
+yago:Estonia	schema:administrates	yago:Järva_County	.
+yago:Estonia	schema:administrates	yago:Hiiu_County	.
+yago:Estonia	schema:administrates	yago:Lääne-Viru_County	.
+yago:Estonia	schema:administrates	yago:Lääne_County	.
+yago:Estonia	schema:administrates	yago:Põlva_County	.
+yago:Estonia	schema:administrates	yago:Jõgeva_County	.
+yago:Estonia	schema:administrates	yago:Ida-Viru_County	.
+yago:Estonia	schema:motto	"Epic Estonia"	.
+yago:Estonia	schema:dateCreated	"1918-02-24T00:00:00Z"^^xsd:dateTime	.
+yago:Estonia	schema:humanDevelopmentIndex	"+0.890"^^xsd:decimal	.
+yago:Estonia	rdfs:label	"Естонія"@rue	.
+yago:Estonia	rdfs:label	"Estoniya"@ig	.
+yago:Estonia	rdfs:label	"Estonia"@tum	.
+yago:Estonia	rdfs:label	"Viro"@fi	.
+yago:Estonia	rdfs:label	"Эстония"@alt	.
+yago:Estonia	rdfs:label	"Estonia"@ny	.
+yago:Estonia	rdfs:label	"Estonia"@jv	.
+yago:Estonia	rdfs:label	"اېسټونيا"@ps	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@hi	.
+yago:Estonia	rdfs:label	"Estonia"@eu	.
+yago:Estonia	rdfs:label	"Эстон"@mn	.
+yago:Estonia	rdfs:label	"Estland"@de-ch	.
+yago:Estonia	rdfs:label	"Estoniya"@uz	.
+yago:Estonia	rdfs:label	"Эстония"@ba	.
+yago:Estonia	rdfs:label	"IWestoniya"@ss	.
+yago:Estonia	rdfs:label	"Etóña"@gn	.
+yago:Estonia	rdfs:label	"Estonia"@tay	.
+yago:Estonia	rdfs:label	"Estonia"@co	.
+yago:Estonia	rdfs:label	"Estonia"@ch	.
+yago:Estonia	rdfs:label	"Էսթոնիա"@hyw	.
+yago:Estonia	rdfs:label	"Эстонія"@be	.
+yago:Estonia	rdfs:label	"Эстони"@mrj	.
+yago:Estonia	rdfs:label	"Estoniya"@kaa	.
+yago:Estonia	rdfs:label	"Eesti"@et	.
+yago:Estonia	rdfs:label	"Estoniya"@crh	.
+yago:Estonia	rdfs:label	"Igauneja"@ltg	.
+yago:Estonia	rdfs:label	"Эстиче"@inh	.
+yago:Estonia	rdfs:label	"Estonia"@tl	.
+yago:Estonia	rdfs:label	"Estland"@fo	.
+yago:Estonia	rdfs:label	"Эстония"@ky	.
+yago:Estonia	rdfs:label	"Estonia"@nov	.
+yago:Estonia	rdfs:label	"Estonia"@cbk-zam	.
+yago:Estonia	rdfs:label	"Estonia"@tpi	.
+yago:Estonia	rdfs:label	"Estland"@zea	.
+yago:Estonia	rdfs:label	"Estonia"@nso	.
+yago:Estonia	rdfs:label	"Estland"@nn	.
+yago:Estonia	rdfs:label	"Эстония"@krc	.
+yago:Estonia	rdfs:label	"ኤስቶኒያ"@am	.
+yago:Estonia	rdfs:label	"Estonija"@sl	.
+yago:Estonia	rdfs:label	"Estonie"@frc	.
+yago:Estonia	rdfs:label	"Estoniya"@rmy	.
+yago:Estonia	rdfs:label	"Эстон"@bxr	.
+yago:Estonia	rdfs:label	"Ēstimō"@liv	.
+yago:Estonia	rdfs:label	"Estonia"@szy	.
+yago:Estonia	rdfs:label	"Estoni"@ht	.
+yago:Estonia	rdfs:label	"Estland"@nb	.
+yago:Estonia	rdfs:label	"Естонија"@mk	.
+yago:Estonia	rdfs:label	"Esitoniya"@rw	.
+yago:Estonia	rdfs:label	"Εσθονία"@el	.
+yago:Estonia	rdfs:label	"Estoniya"@pag	.
+yago:Estonia	rdfs:label	"Estoniya"@so	.
+yago:Estonia	rdfs:label	"Estònia"@oc	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-my	.
+yago:Estonia	rdfs:label	"I-Estoniya"@zu	.
+yago:Estonia	rdfs:label	"Estland"@ang	.
+yago:Estonia	rdfs:label	"Estonia"@kg	.
+yago:Estonia	rdfs:label	"Estonia"@br	.
+yago:Estonia	rdfs:label	"Eschdooni"@pdc	.
+yago:Estonia	rdfs:label	"Естонија"@sr-ec	.
+yago:Estonia	rdfs:label	"Estonia"@ee	.
+yago:Estonia	rdfs:label	"Estònia"@ca	.
+yago:Estonia	rdfs:label	"ཨིསི་ཊོ་ནི་ཡ།"@dz	.
+yago:Estonia	rdfs:label	"Estland"@ksh	.
+yago:Estonia	rdfs:label	"Stónia"@mwl	.
+yago:Estonia	rdfs:label	"Эстония"@kk	.
+yago:Estonia	rdfs:label	"Эстония"@av	.
+yago:Estonia	rdfs:label	"Estonia"@lg	.
+yago:Estonia	rdfs:label	"estis"@jbo	.
+yago:Estonia	rdfs:label	"ປະເທດແອສະໂຕນີ"@lo	.
+yago:Estonia	rdfs:label	"Estonio"@eo	.
+yago:Estonia	rdfs:label	"Esitonia"@sm	.
+yago:Estonia	rdfs:label	"אסטוניה"@he	.
+yago:Estonia	rdfs:label	"Estonia"@ban	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@dty	.
+yago:Estonia	rdfs:label	"Estland"@af	.
+yago:Estonia	rdfs:label	"Estlaante"@sma	.
+yago:Estonia	rdfs:label	"에스토니아"@ko	.
+yago:Estonia	rdfs:label	"Estonija"@hr	.
+yago:Estonia	rdfs:label	"Эстму"@koi	.
+yago:Estonia	rdfs:label	"Estónia"@pt	.
+yago:Estonia	rdfs:label	"Éstonie"@pcd	.
+yago:Estonia	rdfs:label	"Iṣṭuniya"@shi	.
+yago:Estonia	rdfs:label	"Estògna"@eml	.
+yago:Estonia	rdfs:label	"এস্তোনিয়া"@bpy	.
+yago:Estonia	rdfs:label	"Estlandi"@kl	.
+yago:Estonia	rdfs:label	"Estonia"@lad	.
+yago:Estonia	rdfs:label	"အက်စ်တိုးနီးယားနိုင်ငံ"@my	.
+yago:Estonia	rdfs:label	"Estoni"@gcr	.
+yago:Estonia	rdfs:label	"Estonia"@cy	.
+yago:Estonia	rdfs:label	"Estland"@lb	.
+yago:Estonia	rdfs:label	"Igaunija"@lv	.
+yago:Estonia	rdfs:label	"Estland"@da	.
+yago:Estonia	rdfs:label	"Estónia"@tet	.
+yago:Estonia	rdfs:label	"Estonia"@scn	.
+yago:Estonia	rdfs:label	"Estonia"@ceb	.
+yago:Estonia	rdfs:label	"Estniska"@dsb	.
+yago:Estonia	rdfs:label	"Эстония"@ru	.
+yago:Estonia	rdfs:label	"Estonia"@ms	.
+yago:Estonia	rdfs:label	"ئەستۆنیا"@ckb	.
+yago:Estonia	rdfs:label	"Estonia"@hak	.
+yago:Estonia	rdfs:label	"Estônia"@pt-br	.
+yago:Estonia	rdfs:label	"Estónia"@ext	.
+yago:Estonia	rdfs:label	"Estonia"@ln	.
+yago:Estonia	rdfs:label	"Estonya"@war	.
+yago:Estonia	rdfs:label	"Estónsko"@sk	.
+yago:Estonia	rdfs:label	"Estonya"@ku	.
+yago:Estonia	rdfs:label	"Estlân"@fy	.
+yago:Estonia	rdfs:label	"Estonnie"@nrm	.
+yago:Estonia	rdfs:label	"Estiska"@hsb	.
+yago:Estonia	rdfs:label	"Естонија"@sr	.
+yago:Estonia	rdfs:label	"Estonya"@pam	.
+yago:Estonia	rdfs:label	"Estonia"@ie	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh	.
+yago:Estonia	rdfs:label	"Estonia"@io	.
+yago:Estonia	rdfs:label	"Estonia"@trv	.
+yago:Estonia	rdfs:label	"Estonsko"@cs	.
+yago:Estonia	rdfs:label	"Estonia"@vi	.
+yago:Estonia	rdfs:label	"Eistland"@is	.
+yago:Estonia	rdfs:label	"اسٹونیا"@pnb	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@gom-deva	.
+yago:Estonia	rdfs:label	"এস্তোনিয়া"@bn	.
+yago:Estonia	rdfs:label	"Estonia"@ia	.
+yago:Estonia	rdfs:label	"Yn Estaan"@gv	.
+yago:Estonia	rdfs:label	"ესტონეთი"@ka	.
+yago:Estonia	rdfs:label	"Estonie"@roa-tara	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@lzh	.
+yago:Estonia	rdfs:label	"Estonia"@sn	.
+yago:Estonia	rdfs:label	"မိူင်းဢႄႇသတူဝ်းၼီးယႃး"@shn	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@bho	.
+yago:Estonia	rdfs:label	"អេស្តូនី"@km	.
+yago:Estonia	rdfs:label	"'Esitonia"@to	.
+yago:Estonia	rdfs:label	"ਏਸਟੋਨੀਆ"@pa	.
+yago:Estonia	rdfs:label	"Estonia"@rup	.
+yago:Estonia	rdfs:label	"Eestland"@nds	.
+yago:Estonia	rdfs:label	"استونیا"@ur	.
+yago:Estonia	rdfs:label	"Эстони"@cv	.
+yago:Estonia	rdfs:label	"Estonya"@diq	.
+yago:Estonia	rdfs:label	"Eesti"@vro	.
+yago:Estonia	rdfs:label	"Estonia"@en-ca	.
+yago:Estonia	rdfs:label	"Éstonia"@su	.
+yago:Estonia	rdfs:label	"Eestlun"@frr	.
+yago:Estonia	rdfs:label	"Estoniya"@gag	.
+yago:Estonia	rdfs:label	"Estonia"@nan	.
+yago:Estonia	rdfs:label	"Estonia"@nap	.
+yago:Estonia	rdfs:label	"ᎡᏍᏙᏂᏱ"@chr	.
+yago:Estonia	rdfs:label	"Estonya"@tr	.
+yago:Estonia	rdfs:label	"استونی"@fa	.
+yago:Estonia	rdfs:label	"Estònia"@vec	.
+yago:Estonia	rdfs:label	"ʻEsetonia"@haw	.
+yago:Estonia	rdfs:label	"Estoniýa"@tk	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-hant	.
+yago:Estonia	rdfs:label	"Lestiyän"@vo	.
+yago:Estonia	rdfs:label	"Estland"@de-at	.
+yago:Estonia	rdfs:label	"ᐃᔅᑑᓂᐊ"@iu	.
+yago:Estonia	rdfs:label	"ܐܣܛܘܢܝܐ"@arc	.
+yago:Estonia	rdfs:label	"Estonie"@fr	.
+yago:Estonia	rdfs:label	"Èstonia"@ace	.
+yago:Estonia	rdfs:label	"Эстониэ"@kbd	.
+yago:Estonia	rdfs:label	"Ɛsɩtoonii"@kbp	.
+yago:Estonia	rdfs:label	"எசுத்தோனியா"@ta	.
+yago:Estonia	rdfs:label	"Estonia"@ve	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@awa	.
+yago:Estonia	rdfs:label	"استونی"@mzn	.
+yago:Estonia	rdfs:label	"Eestia"@avk	.
+yago:Estonia	rdfs:label	"Estija"@lt	.
+yago:Estonia	rdfs:label	"Estonia"@es	.
+yago:Estonia	rdfs:label	"Estonia"@ak	.
+yago:Estonia	rdfs:label	"استونيا"@arz	.
+yago:Estonia	rdfs:label	"Estonie"@sco	.
+yago:Estonia	rdfs:label	"ઈસ્ટોનિયા"@gu	.
+yago:Estonia	rdfs:label	"Estland"@sv	.
+yago:Estonia	rdfs:label	"ma Esi"@tok	.
+yago:Estonia	rdfs:label	"An Eastóin"@ga	.
+yago:Estonia	rdfs:label	"Estonija"@sr-el	.
+yago:Estonia	rdfs:label	"Էստոնիա"@hy	.
+yago:Estonia	rdfs:label	"استونیا"@bgn	.
+yago:Estonia	rdfs:label	"Esti"@lfn	.
+yago:Estonia	rdfs:label	"ประเทศเอสโตเนีย"@th	.
+yago:Estonia	rdfs:label	"Estonia"@mg	.
+yago:Estonia	rdfs:label	"Estonia"@ts	.
+yago:Estonia	rdfs:label	"ꯑꯦꯁ꯭ꯇꯣꯅꯤꯌꯥ"@mni	.
+yago:Estonia	rdfs:label	"Estonia"@gom-latn	.
+yago:Estonia	rdfs:label	"Эстония"@sah	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@sa	.
+yago:Estonia	rdfs:label	"Estland"@de	.
+yago:Estonia	rdfs:label	"Estonija"@sh	.
+yago:Estonia	rdfs:label	"ᱮᱥᱛᱳᱱᱤᱭᱟ"@sat	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@mai	.
+yago:Estonia	rdfs:label	"Estlaand"@nds-nl	.
+yago:Estonia	rdfs:label	"Estonia"@map-bms	.
+yago:Estonia	rdfs:label	"Estland"@bar	.
+yago:Estonia	rdfs:label	"Esland"@li	.
+yago:Estonia	rdfs:label	"එස්ටෝනියා"@si	.
+yago:Estonia	rdfs:label	"Estonia"@st	.
+yago:Estonia	rdfs:label	"Estonja"@mt	.
+yago:Estonia	rdfs:label	"استونی"@lrc	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-tw	.
+yago:Estonia	rdfs:label	"Estonya"@pih	.
+yago:Estonia	rdfs:label	"Estonia"@mad	.
+yago:Estonia	rdfs:label	"Эстония"@lez	.
+yago:Estonia	rdfs:label	"Estonia"@pap	.
+yago:Estonia	rdfs:label	"Estůńijo"@szl	.
+yago:Estonia	rdfs:label	"Estteeana"@se	.
+yago:Estonia	rdfs:label	"Estonia"@bm	.
+yago:Estonia	rdfs:label	"Естонія"@uk	.
+yago:Estonia	rdfs:label	"Estonia"@ilo	.
+yago:Estonia	rdfs:label	"ఎస్టోనియా"@te	.
+yago:Estonia	rdfs:label	"Эстони"@os	.
+yago:Estonia	rdfs:label	"Estonya"@bcl	.
+yago:Estonia	rdfs:label	"Эстония"@kv	.
+yago:Estonia	rdfs:label	"Estoniya"@az	.
+yago:Estonia	rdfs:label	"Estóńskô"@csb	.
+yago:Estonia	rdfs:label	"إسطونيا"@ary	.
+yago:Estonia	rdfs:label	"Estonia"@dag	.
+yago:Estonia	rdfs:label	"Естония"@bg	.
+yago:Estonia	rdfs:label	"Estonia"@rm	.
+yago:Estonia	rdfs:label	"Эсти мастор"@mdf	.
+yago:Estonia	rdfs:label	"hEstuonia"@jam	.
+yago:Estonia	rdfs:label	"Eestijânnam"@sms	.
+yago:Estonia	rdfs:label	"エストニア"@ja	.
+yago:Estonia	rdfs:label	"Estounii"@olo	.
+yago:Estonia	rdfs:label	"Эстдин Орн"@xal	.
+yago:Estonia	rdfs:label	"Эстоний"@mhr	.
+yago:Estonia	rdfs:label	"Estonia"@sq	.
+yago:Estonia	rdfs:label	"Észtország"@hu	.
+yago:Estonia	rdfs:label	"ಎಸ್ಟೊನಿಯ"@kn	.
+yago:Estonia	rdfs:label	"Estonia"@it	.
+yago:Estonia	rdfs:label	"Estonija"@bs	.
+yago:Estonia	rdfs:label	"ესტონეთი"@xmf	.
+yago:Estonia	rdfs:label	"أستونيا"@aeb-arab	.
+yago:Estonia	rdfs:label	"Istooniyaa"@om	.
+yago:Estonia	rdfs:label	"Estònia"@sc	.
+yago:Estonia	rdfs:label	"Eastòinia"@gd	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-hk	.
+yago:Estonia	rdfs:label	"Estonia"@hif	.
+yago:Estonia	rdfs:label	"Estland"@vls	.
+yago:Estonia	rdfs:label	"Etoni"@ty	.
+yago:Estonia	rdfs:label	"എസ്റ്റോണിയ"@ml	.
+yago:Estonia	rdfs:label	"Estonia"@en	.
+yago:Estonia	rdfs:label	"Эстони"@ce	.
+yago:Estonia	rdfs:label	"Estóníà"@yo	.
+yago:Estonia	rdfs:label	"Estonia"@gl	.
+yago:Estonia	rdfs:label	"Estonia"@la	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@wuu	.
+yago:Estonia	rdfs:label	"Istoniya"@ha	.
+yago:Estonia	rdfs:label	"Estėjė"@sgs	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-cn	.
+yago:Estonia	rdfs:label	"Estland"@nl	.
+yago:Estonia	rdfs:label	"Estlound"@stq	.
+yago:Estonia	rdfs:label	"Estonia"@bi	.
+yago:Estonia	rdfs:label	"Estlenikondre"@srn	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@pi	.
+yago:Estonia	rdfs:label	"Estland"@gsw	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-mo	.
+yago:Estonia	rdfs:label	"Etonia"@mi	.
+yago:Estonia	rdfs:label	"Estònia"@lij	.
+yago:Estonia	rdfs:label	"Эстоние"@ady	.
+yago:Estonia	rdfs:label	"Эстония"@tg	.
+yago:Estonia	rdfs:label	"Estooni"@wo	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@gom	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-sg	.
+yago:Estonia	rdfs:label	"ଏଷ୍ଟୋନିଆ"@or	.
+yago:Estonia	rdfs:label	"Estonia"@ami	.
+yago:Estonia	rdfs:label	"Эстония"@udm	.
+yago:Estonia	rdfs:label	"Estinma"@vep	.
+yago:Estonia	rdfs:label	"Estoniya"@ff	.
+yago:Estonia	rdfs:label	"Estonia"@nah	.
+yago:Estonia	rdfs:label	"Эстэнь Мастор"@myv	.
+yago:Estonia	rdfs:label	"Estlánnda"@smj	.
+yago:Estonia	rdfs:label	"Єсть"@cu	.
+yago:Estonia	rdfs:label	"Estonia"@lmo	.
+yago:Estonia	rdfs:label	"Estonia"@en-gb	.
+yago:Estonia	rdfs:label	"Istunya"@qu	.
+yago:Estonia	rdfs:label	"Estonia"@ast	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@yue	.
+yago:Estonia	rdfs:label	"Estonia"@an	.
+yago:Estonia	rdfs:label	"Эстонія"@be-tarask	.
+yago:Estonia	rdfs:label	"إستونيا"@ar	.
+yago:Estonia	rdfs:label	"Estonia"@id	.
+yago:Estonia	rdfs:label	"Isṭuni"@kab	.
+yago:Estonia	rdfs:label	"Эстония"@tt	.
+yago:Estonia	rdfs:label	"Estonia"@cdo	.
+yago:Estonia	rdfs:label	"ئېستونىيە"@ug	.
+yago:Estonia	rdfs:label	"ߌߛߑߕߏߣߌ߫"@nqo	.
+yago:Estonia	rdfs:label	"Estoni"@kw	.
+yago:Estonia	rdfs:label	"Estonie"@fur	.
+yago:Estonia	rdfs:label	"Estonia"@din	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-hans	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@mr	.
+yago:Estonia	rdfs:label	"Hakázítah Dineʼé Bikéyah"@nv	.
+yago:Estonia	rdfs:label	"Estonia"@ro	.
+yago:Estonia	rdfs:label	"Etoniya"@na	.
+yago:Estonia	rdfs:label	"עסטלאנד"@yi	.
+yago:Estonia	rdfs:label	"Estonia"@za	.
+yago:Estonia	rdfs:label	"Estonia"@tw	.
+yago:Estonia	rdfs:label	"Estonia"@sw	.
+yago:Estonia	rdfs:label	"Estoniya"@crh-latn	.
+yago:Estonia	rdfs:label	"Estonia"@pl	.
+yago:Estonia	rdfs:label	"ཨིསུ་ཊོ་ནིཡ།"@bo	.
+yago:Estonia	rdfs:label	"Estoneye"@wa	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@new	.
+yago:Estonia	rdfs:label	"Èstonie"@frp	.
+yago:Estonia	rdfs:label	"اسٽونيا"@sd	.
+yago:Estonia	rdfs:label	"Estònia"@pms	.
+yago:Estonia	rdfs:label	"Естониа"@ab	.
+yago:Estonia	rdfs:label	"Εσθονία"@pnt	.
+yago:Estonia	rdfs:label	"Estonia"@lld	.
+yago:Estonia	rdfs:label	"ایستونی"@azb	.
+yago:Estonia	rdfs:label	"𐌰𐌹𐍃𐍄𐌰𐌻𐌰𐌽𐌳"@got	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@ne	.
+yago:Estonia	rdfs:label	"Eesti"@smn	.
+yago:Estonia	rdfs:label	"Естонія"@rue	.
+yago:Estonia	rdfs:label	"Estoniya"@ig	.
+yago:Estonia	rdfs:label	"Estonia"@tum	.
+yago:Estonia	rdfs:label	"Viro"@fi	.
+yago:Estonia	rdfs:label	"Эстония"@alt	.
+yago:Estonia	rdfs:label	"Estonia"@ny	.
+yago:Estonia	rdfs:label	"Estonia"@jv	.
+yago:Estonia	rdfs:label	"اېسټونيا"@ps	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@hi	.
+yago:Estonia	rdfs:label	"Estonia"@eu	.
+yago:Estonia	rdfs:label	"Эстон"@mn	.
+yago:Estonia	rdfs:label	"Estland"@de-ch	.
+yago:Estonia	rdfs:label	"Estoniya"@uz	.
+yago:Estonia	rdfs:label	"Эстония"@ba	.
+yago:Estonia	rdfs:label	"IWestoniya"@ss	.
+yago:Estonia	rdfs:label	"Etóña"@gn	.
+yago:Estonia	rdfs:label	"Estonia"@tay	.
+yago:Estonia	rdfs:label	"Estonia"@co	.
+yago:Estonia	rdfs:label	"Estonia"@ch	.
+yago:Estonia	rdfs:label	"Էսթոնիա"@hyw	.
+yago:Estonia	rdfs:label	"Эстонія"@be	.
+yago:Estonia	rdfs:label	"Эстони"@mrj	.
+yago:Estonia	rdfs:label	"Estoniya"@kaa	.
+yago:Estonia	rdfs:label	"Eesti"@et	.
+yago:Estonia	rdfs:label	"Estoniya"@crh	.
+yago:Estonia	rdfs:label	"Igauneja"@ltg	.
+yago:Estonia	rdfs:label	"Эстиче"@inh	.
+yago:Estonia	rdfs:label	"Estonia"@tl	.
+yago:Estonia	rdfs:label	"Estland"@fo	.
+yago:Estonia	rdfs:label	"Эстония"@ky	.
+yago:Estonia	rdfs:label	"Estonia"@nov	.
+yago:Estonia	rdfs:label	"Estonia"@cbk-zam	.
+yago:Estonia	rdfs:label	"Estonia"@tpi	.
+yago:Estonia	rdfs:label	"Estland"@zea	.
+yago:Estonia	rdfs:label	"Estonia"@nso	.
+yago:Estonia	rdfs:label	"Estland"@nn	.
+yago:Estonia	rdfs:label	"Эстония"@krc	.
+yago:Estonia	rdfs:label	"ኤስቶኒያ"@am	.
+yago:Estonia	rdfs:label	"Estonija"@sl	.
+yago:Estonia	rdfs:label	"Estonie"@frc	.
+yago:Estonia	rdfs:label	"Estoniya"@rmy	.
+yago:Estonia	rdfs:label	"Эстон"@bxr	.
+yago:Estonia	rdfs:label	"Ēstimō"@liv	.
+yago:Estonia	rdfs:label	"Estonia"@szy	.
+yago:Estonia	rdfs:label	"Estoni"@ht	.
+yago:Estonia	rdfs:label	"Estland"@nb	.
+yago:Estonia	rdfs:label	"Естонија"@mk	.
+yago:Estonia	rdfs:label	"Esitoniya"@rw	.
+yago:Estonia	rdfs:label	"Εσθονία"@el	.
+yago:Estonia	rdfs:label	"Estoniya"@pag	.
+yago:Estonia	rdfs:label	"Estoniya"@so	.
+yago:Estonia	rdfs:label	"Estònia"@oc	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-my	.
+yago:Estonia	rdfs:label	"I-Estoniya"@zu	.
+yago:Estonia	rdfs:label	"Estland"@ang	.
+yago:Estonia	rdfs:label	"Estonia"@kg	.
+yago:Estonia	rdfs:label	"Estonia"@br	.
+yago:Estonia	rdfs:label	"Eschdooni"@pdc	.
+yago:Estonia	rdfs:label	"Естонија"@sr-ec	.
+yago:Estonia	rdfs:label	"Estonia"@ee	.
+yago:Estonia	rdfs:label	"Estònia"@ca	.
+yago:Estonia	rdfs:label	"ཨིསི་ཊོ་ནི་ཡ།"@dz	.
+yago:Estonia	rdfs:label	"Estland"@ksh	.
+yago:Estonia	rdfs:label	"Stónia"@mwl	.
+yago:Estonia	rdfs:label	"Эстония"@kk	.
+yago:Estonia	rdfs:label	"Эстония"@av	.
+yago:Estonia	rdfs:label	"Estonia"@lg	.
+yago:Estonia	rdfs:label	"estis"@jbo	.
+yago:Estonia	rdfs:label	"ປະເທດແອສະໂຕນີ"@lo	.
+yago:Estonia	rdfs:label	"Estonio"@eo	.
+yago:Estonia	rdfs:label	"Esitonia"@sm	.
+yago:Estonia	rdfs:label	"אסטוניה"@he	.
+yago:Estonia	rdfs:label	"Estonia"@ban	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@dty	.
+yago:Estonia	rdfs:label	"Estland"@af	.
+yago:Estonia	rdfs:label	"Estlaante"@sma	.
+yago:Estonia	rdfs:label	"에스토니아"@ko	.
+yago:Estonia	rdfs:label	"Estonija"@hr	.
+yago:Estonia	rdfs:label	"Эстму"@koi	.
+yago:Estonia	rdfs:label	"Estónia"@pt	.
+yago:Estonia	rdfs:label	"Éstonie"@pcd	.
+yago:Estonia	rdfs:label	"Iṣṭuniya"@shi	.
+yago:Estonia	rdfs:label	"Estògna"@eml	.
+yago:Estonia	rdfs:label	"এস্তোনিয়া"@bpy	.
+yago:Estonia	rdfs:label	"Estlandi"@kl	.
+yago:Estonia	rdfs:label	"Estonia"@lad	.
+yago:Estonia	rdfs:label	"အက်စ်တိုးနီးယားနိုင်ငံ"@my	.
+yago:Estonia	rdfs:label	"Estoni"@gcr	.
+yago:Estonia	rdfs:label	"Estonia"@cy	.
+yago:Estonia	rdfs:label	"Estland"@lb	.
+yago:Estonia	rdfs:label	"Igaunija"@lv	.
+yago:Estonia	rdfs:label	"Estland"@da	.
+yago:Estonia	rdfs:label	"Estónia"@tet	.
+yago:Estonia	rdfs:label	"Estonia"@scn	.
+yago:Estonia	rdfs:label	"Estonia"@ceb	.
+yago:Estonia	rdfs:label	"Estniska"@dsb	.
+yago:Estonia	rdfs:label	"Эстония"@ru	.
+yago:Estonia	rdfs:label	"Estonia"@ms	.
+yago:Estonia	rdfs:label	"ئەستۆنیا"@ckb	.
+yago:Estonia	rdfs:label	"Estonia"@hak	.
+yago:Estonia	rdfs:label	"Estônia"@pt-br	.
+yago:Estonia	rdfs:label	"Estónia"@ext	.
+yago:Estonia	rdfs:label	"Estonia"@ln	.
+yago:Estonia	rdfs:label	"Estonya"@war	.
+yago:Estonia	rdfs:label	"Estónsko"@sk	.
+yago:Estonia	rdfs:label	"Estonya"@ku	.
+yago:Estonia	rdfs:label	"Estlân"@fy	.
+yago:Estonia	rdfs:label	"Estonnie"@nrm	.
+yago:Estonia	rdfs:label	"Estiska"@hsb	.
+yago:Estonia	rdfs:label	"Естонија"@sr	.
+yago:Estonia	rdfs:label	"Estonya"@pam	.
+yago:Estonia	rdfs:label	"Estonia"@ie	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh	.
+yago:Estonia	rdfs:label	"Estonia"@io	.
+yago:Estonia	rdfs:label	"Estonia"@trv	.
+yago:Estonia	rdfs:label	"Estonsko"@cs	.
+yago:Estonia	rdfs:label	"Estonia"@vi	.
+yago:Estonia	rdfs:label	"Eistland"@is	.
+yago:Estonia	rdfs:label	"اسٹونیا"@pnb	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@gom-deva	.
+yago:Estonia	rdfs:label	"এস্তোনিয়া"@bn	.
+yago:Estonia	rdfs:label	"Estonia"@ia	.
+yago:Estonia	rdfs:label	"Yn Estaan"@gv	.
+yago:Estonia	rdfs:label	"ესტონეთი"@ka	.
+yago:Estonia	rdfs:label	"Estonie"@roa-tara	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@lzh	.
+yago:Estonia	rdfs:label	"Estonia"@sn	.
+yago:Estonia	rdfs:label	"မိူင်းဢႄႇသတူဝ်းၼီးယႃး"@shn	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@bho	.
+yago:Estonia	rdfs:label	"អេស្តូនី"@km	.
+yago:Estonia	rdfs:label	"'Esitonia"@to	.
+yago:Estonia	rdfs:label	"ਏਸਟੋਨੀਆ"@pa	.
+yago:Estonia	rdfs:label	"Estonia"@rup	.
+yago:Estonia	rdfs:label	"Eestland"@nds	.
+yago:Estonia	rdfs:label	"استونیا"@ur	.
+yago:Estonia	rdfs:label	"Эстони"@cv	.
+yago:Estonia	rdfs:label	"Estonya"@diq	.
+yago:Estonia	rdfs:label	"Eesti"@vro	.
+yago:Estonia	rdfs:label	"Estonia"@en-ca	.
+yago:Estonia	rdfs:label	"Éstonia"@su	.
+yago:Estonia	rdfs:label	"Eestlun"@frr	.
+yago:Estonia	rdfs:label	"Estoniya"@gag	.
+yago:Estonia	rdfs:label	"Estonia"@nan	.
+yago:Estonia	rdfs:label	"Estonia"@nap	.
+yago:Estonia	rdfs:label	"ᎡᏍᏙᏂᏱ"@chr	.
+yago:Estonia	rdfs:label	"Estonya"@tr	.
+yago:Estonia	rdfs:label	"استونی"@fa	.
+yago:Estonia	rdfs:label	"Estònia"@vec	.
+yago:Estonia	rdfs:label	"ʻEsetonia"@haw	.
+yago:Estonia	rdfs:label	"Estoniýa"@tk	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-hant	.
+yago:Estonia	rdfs:label	"Lestiyän"@vo	.
+yago:Estonia	rdfs:label	"Estland"@de-at	.
+yago:Estonia	rdfs:label	"ᐃᔅᑑᓂᐊ"@iu	.
+yago:Estonia	rdfs:label	"ܐܣܛܘܢܝܐ"@arc	.
+yago:Estonia	rdfs:label	"Estonie"@fr	.
+yago:Estonia	rdfs:label	"Èstonia"@ace	.
+yago:Estonia	rdfs:label	"Эстониэ"@kbd	.
+yago:Estonia	rdfs:label	"Ɛsɩtoonii"@kbp	.
+yago:Estonia	rdfs:label	"எசுத்தோனியா"@ta	.
+yago:Estonia	rdfs:label	"Estonia"@ve	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@awa	.
+yago:Estonia	rdfs:label	"استونی"@mzn	.
+yago:Estonia	rdfs:label	"Eestia"@avk	.
+yago:Estonia	rdfs:label	"Estija"@lt	.
+yago:Estonia	rdfs:label	"Estonia"@es	.
+yago:Estonia	rdfs:label	"Estonia"@ak	.
+yago:Estonia	rdfs:label	"استونيا"@arz	.
+yago:Estonia	rdfs:label	"Estonie"@sco	.
+yago:Estonia	rdfs:label	"ઈસ્ટોનિયા"@gu	.
+yago:Estonia	rdfs:label	"Estland"@sv	.
+yago:Estonia	rdfs:label	"ma Esi"@tok	.
+yago:Estonia	rdfs:label	"An Eastóin"@ga	.
+yago:Estonia	rdfs:label	"Estonija"@sr-el	.
+yago:Estonia	rdfs:label	"Էստոնիա"@hy	.
+yago:Estonia	rdfs:label	"استونیا"@bgn	.
+yago:Estonia	rdfs:label	"Esti"@lfn	.
+yago:Estonia	rdfs:label	"ประเทศเอสโตเนีย"@th	.
+yago:Estonia	rdfs:label	"Estonia"@mg	.
+yago:Estonia	rdfs:label	"Estonia"@ts	.
+yago:Estonia	rdfs:label	"ꯑꯦꯁ꯭ꯇꯣꯅꯤꯌꯥ"@mni	.
+yago:Estonia	rdfs:label	"Estonia"@gom-latn	.
+yago:Estonia	rdfs:label	"Эстония"@sah	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@sa	.
+yago:Estonia	rdfs:label	"Estland"@de	.
+yago:Estonia	rdfs:label	"Estonija"@sh	.
+yago:Estonia	rdfs:label	"ᱮᱥᱛᱳᱱᱤᱭᱟ"@sat	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@mai	.
+yago:Estonia	rdfs:label	"Estlaand"@nds-nl	.
+yago:Estonia	rdfs:label	"Estonia"@map-bms	.
+yago:Estonia	rdfs:label	"Estland"@bar	.
+yago:Estonia	rdfs:label	"Esland"@li	.
+yago:Estonia	rdfs:label	"එස්ටෝනියා"@si	.
+yago:Estonia	rdfs:label	"Estonia"@st	.
+yago:Estonia	rdfs:label	"Estonja"@mt	.
+yago:Estonia	rdfs:label	"استونی"@lrc	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-tw	.
+yago:Estonia	rdfs:label	"Estonya"@pih	.
+yago:Estonia	rdfs:label	"Estonia"@mad	.
+yago:Estonia	rdfs:label	"Эстония"@lez	.
+yago:Estonia	rdfs:label	"Estonia"@pap	.
+yago:Estonia	rdfs:label	"Estůńijo"@szl	.
+yago:Estonia	rdfs:label	"Estteeana"@se	.
+yago:Estonia	rdfs:label	"Estonia"@bm	.
+yago:Estonia	rdfs:label	"Естонія"@uk	.
+yago:Estonia	rdfs:label	"Estonia"@ilo	.
+yago:Estonia	rdfs:label	"ఎస్టోనియా"@te	.
+yago:Estonia	rdfs:label	"Эстони"@os	.
+yago:Estonia	rdfs:label	"Estonya"@bcl	.
+yago:Estonia	rdfs:label	"Эстония"@kv	.
+yago:Estonia	rdfs:label	"Estoniya"@az	.
+yago:Estonia	rdfs:label	"Estóńskô"@csb	.
+yago:Estonia	rdfs:label	"إسطونيا"@ary	.
+yago:Estonia	rdfs:label	"Estonia"@dag	.
+yago:Estonia	rdfs:label	"Естония"@bg	.
+yago:Estonia	rdfs:label	"Estonia"@rm	.
+yago:Estonia	rdfs:label	"Эсти мастор"@mdf	.
+yago:Estonia	rdfs:label	"hEstuonia"@jam	.
+yago:Estonia	rdfs:label	"Eestijânnam"@sms	.
+yago:Estonia	rdfs:label	"エストニア"@ja	.
+yago:Estonia	rdfs:label	"Estounii"@olo	.
+yago:Estonia	rdfs:label	"Эстдин Орн"@xal	.
+yago:Estonia	rdfs:label	"Эстоний"@mhr	.
+yago:Estonia	rdfs:label	"Estonia"@sq	.
+yago:Estonia	rdfs:label	"Észtország"@hu	.
+yago:Estonia	rdfs:label	"ಎಸ್ಟೊನಿಯ"@kn	.
+yago:Estonia	rdfs:label	"Estonia"@it	.
+yago:Estonia	rdfs:label	"Estonija"@bs	.
+yago:Estonia	rdfs:label	"ესტონეთი"@xmf	.
+yago:Estonia	rdfs:label	"أستونيا"@aeb-arab	.
+yago:Estonia	rdfs:label	"Istooniyaa"@om	.
+yago:Estonia	rdfs:label	"Estònia"@sc	.
+yago:Estonia	rdfs:label	"Eastòinia"@gd	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-hk	.
+yago:Estonia	rdfs:label	"Estonia"@hif	.
+yago:Estonia	rdfs:label	"Estland"@vls	.
+yago:Estonia	rdfs:label	"Etoni"@ty	.
+yago:Estonia	rdfs:label	"എസ്റ്റോണിയ"@ml	.
+yago:Estonia	rdfs:label	"Estonia"@en	.
+yago:Estonia	rdfs:label	"Эстони"@ce	.
+yago:Estonia	rdfs:label	"Estóníà"@yo	.
+yago:Estonia	rdfs:label	"Estonia"@gl	.
+yago:Estonia	rdfs:label	"Estonia"@la	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@wuu	.
+yago:Estonia	rdfs:label	"Istoniya"@ha	.
+yago:Estonia	rdfs:label	"Estėjė"@sgs	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-cn	.
+yago:Estonia	rdfs:label	"Estland"@nl	.
+yago:Estonia	rdfs:label	"Estlound"@stq	.
+yago:Estonia	rdfs:label	"Estonia"@bi	.
+yago:Estonia	rdfs:label	"Estlenikondre"@srn	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@pi	.
+yago:Estonia	rdfs:label	"Estland"@gsw	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@zh-mo	.
+yago:Estonia	rdfs:label	"Etonia"@mi	.
+yago:Estonia	rdfs:label	"Estònia"@lij	.
+yago:Estonia	rdfs:label	"Эстоние"@ady	.
+yago:Estonia	rdfs:label	"Эстония"@tg	.
+yago:Estonia	rdfs:label	"Estooni"@wo	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@gom	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-sg	.
+yago:Estonia	rdfs:label	"ଏଷ୍ଟୋନିଆ"@or	.
+yago:Estonia	rdfs:label	"Estonia"@ami	.
+yago:Estonia	rdfs:label	"Эстония"@udm	.
+yago:Estonia	rdfs:label	"Estinma"@vep	.
+yago:Estonia	rdfs:label	"Estoniya"@ff	.
+yago:Estonia	rdfs:label	"Estonia"@nah	.
+yago:Estonia	rdfs:label	"Эстэнь Мастор"@myv	.
+yago:Estonia	rdfs:label	"Estlánnda"@smj	.
+yago:Estonia	rdfs:label	"Єсть"@cu	.
+yago:Estonia	rdfs:label	"Estonia"@lmo	.
+yago:Estonia	rdfs:label	"Estonia"@en-gb	.
+yago:Estonia	rdfs:label	"Istunya"@qu	.
+yago:Estonia	rdfs:label	"Estonia"@ast	.
+yago:Estonia	rdfs:label	"愛沙尼亞"@yue	.
+yago:Estonia	rdfs:label	"Estonia"@an	.
+yago:Estonia	rdfs:label	"Эстонія"@be-tarask	.
+yago:Estonia	rdfs:label	"إستونيا"@ar	.
+yago:Estonia	rdfs:label	"Estonia"@id	.
+yago:Estonia	rdfs:label	"Isṭuni"@kab	.
+yago:Estonia	rdfs:label	"Эстония"@tt	.
+yago:Estonia	rdfs:label	"Estonia"@cdo	.
+yago:Estonia	rdfs:label	"ئېستونىيە"@ug	.
+yago:Estonia	rdfs:label	"ߌߛߑߕߏߣߌ߫"@nqo	.
+yago:Estonia	rdfs:label	"Estoni"@kw	.
+yago:Estonia	rdfs:label	"Estonie"@fur	.
+yago:Estonia	rdfs:label	"Estonia"@din	.
+yago:Estonia	rdfs:label	"爱沙尼亚"@zh-hans	.
+yago:Estonia	rdfs:label	"एस्टोनिया"@mr	.
+yago:Estonia	rdfs:label	"Hakázítah Dineʼé Bikéyah"@nv	.
+yago:Estonia	rdfs:label	"Estonia"@ro	.
+yago:Estonia	rdfs:label	"Etoniya"@na	.
+yago:Estonia	rdfs:label	"עסטלאנד"@yi	.
+yago:Estonia	rdfs:label	"Estonia"@za	.
+yago:Estonia	rdfs:label	"Estonia"@tw	.
+yago:Estonia	rdfs:label	"Estonia"@sw	.
+yago:Estonia	rdfs:label	"Estoniya"@crh-latn	.
+yago:Estonia	rdfs:label	"Estonia"@pl	.
+yago:Estonia	rdfs:label	"ཨིསུ་ཊོ་ནིཡ།"@bo	.
+yago:Estonia	rdfs:label	"Estoneye"@wa	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@new	.
+yago:Estonia	rdfs:label	"Èstonie"@frp	.
+yago:Estonia	rdfs:label	"اسٽونيا"@sd	.
+yago:Estonia	rdfs:label	"Estònia"@pms	.
+yago:Estonia	rdfs:label	"Естониа"@ab	.
+yago:Estonia	rdfs:label	"Εσθονία"@pnt	.
+yago:Estonia	rdfs:label	"Estonia"@lld	.
+yago:Estonia	rdfs:label	"ایستونی"@azb	.
+yago:Estonia	rdfs:label	"𐌰𐌹𐍃𐍄𐌰𐌻𐌰𐌽𐌳"@got	.
+yago:Estonia	rdfs:label	"इस्टोनिया"@ne	.
+yago:Estonia	rdfs:label	"Eesti"@smn	.
+yago:Estonia	rdfs:comment	"држава у северној Европи"@sr-ec	.
+yago:Estonia	rdfs:comment	"وڵاتی باڵادەست لە باکووری ڕۆژھەڵاتی ئەورووپا"@ckb	.
+yago:Estonia	rdfs:comment	"युरोपको देश"@ne	.
+yago:Estonia	rdfs:comment	"republika king Pangulung Europa"@pam	.
+yago:Estonia	rdfs:comment	"valsts Ziemeļeiropā, viena no trim Baltijas valstīm"@lv	.
+yago:Estonia	rdfs:comment	"מדינה מזרח אירופאית"@he	.
+yago:Estonia	rdfs:comment	"lando en norda Eŭropo, apud Finna Golfo kaj Balta Maro, norda de Latvio, okcidenta de Rusio"@eo	.
+yago:Estonia	rdfs:comment	"উত্তর-পূর্ব ইউরোপের সার্বভৌম রাষ্ট্র"@bn	.
+yago:Estonia	rdfs:comment	"Staat in Nordeuropa"@de-ch	.
+yago:Estonia	rdfs:comment	"país da Europa"@pt-br	.
+yago:Estonia	rdfs:comment	"Quốc gia ở khu vực Bắc Âu"@vi	.
+yago:Estonia	rdfs:comment	"สาธารณรัฐในยุโรปเหนือ"@th	.
+yago:Estonia	rdfs:comment	"land i Europa"@nn	.
+yago:Estonia	rdfs:comment	"북유럽의 국가"@ko	.
+yago:Estonia	rdfs:comment	"Land í Norður-Evrópu"@is	.
+yago:Estonia	rdfs:comment	"država u sjeveroistočnoj Evropi"@bs	.
+yago:Estonia	rdfs:comment	"Staat in Nordeuropa"@de-at	.
+yago:Estonia	rdfs:comment	"بلاد جات ف شمال ؤروپا"@ary	.
+yago:Estonia	rdfs:comment	"un dos tres países bálticos"@gl	.
+yago:Estonia	rdfs:comment	"pagilian idiay Europa"@ilo	.
+yago:Estonia	rdfs:comment	"sovereign state in northeastern Europe"@en	.
+yago:Estonia	rdfs:comment	"nordeuropæisk land"@da	.
+yago:Estonia	rdfs:comment	"land i Europa"@nb	.
+yago:Estonia	rdfs:comment	"stát v severní Evropě"@cs	.
+yago:Estonia	rdfs:comment	"republik i Nordeuropa"@sv	.
+yago:Estonia	rdfs:comment	"stat w sewjerowuchodnej Europje"@hsb	.
+yago:Estonia	rdfs:comment	"國家"@zh	.
+yago:Estonia	rdfs:comment	"государство в Северной Европе"@ru	.
+yago:Estonia	rdfs:comment	"歐洲國家"@zh-hant	.
+yago:Estonia	rdfs:comment	"country in Eastern Europe"@en-gb	.
+yago:Estonia	rdfs:comment	"país europeu, membre de la Unió Europea"@ca	.
+yago:Estonia	rdfs:comment	"riika Eurohpás"@se	.
+yago:Estonia	rdfs:comment	"उत्तरी यूरोप के बाल्टिक क्षेत्र में स्थित एक देश"@hi	.
+yago:Estonia	rdfs:comment	"land in Europa"@nl	.
+yago:Estonia	rdfs:comment	"país europeu"@pt	.
+yago:Estonia	rdfs:comment	"valtio Itämeren itärannalla Pohjois-Euroopassa Suomenlahden eteläpuolella"@fi	.
+yago:Estonia	rdfs:comment	"Vabariik Põhja-Euroopas"@et	.
+yago:Estonia	rdfs:comment	"Staat im Baltikum"@de	.
+yago:Estonia	rdfs:comment	"država u sjeveroistočnoj Europi"@hr	.
+yago:Estonia	rdfs:comment	"波罗的海沿岸国家"@zh-hans	.
+yago:Estonia	rdfs:comment	"國家"@zh-hk	.
+yago:Estonia	rdfs:comment	"land in Noordoos-Europa"@af	.
+yago:Estonia	rdfs:comment	"држава во Источна Европа"@mk	.
+yago:Estonia	rdfs:comment	"دولة تقع في شمال أوروبا"@ar	.
+yago:Estonia	rdfs:comment	"اتر اوڀر يورپ جو هڪ ملڪ"@sd	.
+yago:Estonia	rdfs:comment	"civitas Europae"@la	.
+yago:Estonia	rdfs:comment	"χώρα στην ανατολική Ευρώπη"@el	.
+yago:Estonia	rdfs:comment	"պետություն"@hy	.
+yago:Estonia	rdfs:comment	"štát v severovýchodnej Európe"@sk	.
+yago:Estonia	rdfs:comment	"држава у североисточној Европи"@sr	.
+yago:Estonia	rdfs:comment	"pays d'Europe"@fr	.
+yago:Estonia	rdfs:comment	"Stato dell'Europa nord-orientale, membro dell'Unione europea"@it	.
+yago:Estonia	rdfs:comment	"държава в Източна Европа"@bg	.
+yago:Estonia	rdfs:comment	"país d'Europa"@ast	.
+yago:Estonia	rdfs:comment	"peyi ki nan kontinan Ewòp"@ht	.
+yago:Estonia	rdfs:comment	"pàize de l'Eoröpa"@lij	.
+yago:Estonia	rdfs:comment	"balti állam Észak-Európában"@hu	.
+yago:Estonia	rdfs:comment	"ߋߙߐߔߎ߬ ߞߐ߬ߘߎ߮-ߕߟߋ߬ߓߐ ߞߊ߬ߝߏ߫ ߡߊ߲߭ߕߎ߬ߙߋ ߘߏ߫"@nqo	.
+yago:Estonia	rdfs:comment	"republic in North Europe"@en-ca	.
+yago:Estonia	rdfs:comment	"stat sovran fl-Ewropa tal-Grigal"@mt	.
+yago:Estonia	rdfs:comment	"țară din Europa"@ro	.
+yago:Estonia	rdfs:comment	"država v Evropi"@sl	.
+yago:Estonia	rdfs:comment	"país de Europa"@es	.
+yago:Estonia	rdfs:comment	"کشوری در قاره اروپا"@fa	.
+yago:Estonia	rdfs:comment	"Estau d'Europa"@an	.
+yago:Estonia	rdfs:comment	"država u severnoj Evropi"@sr-el	.
+yago:Estonia	rdfs:comment	"યુરોપના બાલ્ટિક ક્ષેત્ર માં સ્થિત એક દેશ"@gu	.
+yago:Estonia	rdfs:comment	"Kuzey Avrupa'da bir ülke"@tr	.
+yago:Estonia	rdfs:comment	"negara di Eropa Utara"@id	.
+yago:Estonia	rdfs:comment	"państwo w Europie"@pl	.
+yago:Estonia	rdfs:comment	"北ヨーロッパの国"@ja	.
+yago:Estonia	rdfs:comment	"مُلُک"@ks	.
+yago:Estonia	rdfs:comment	"ma lon ma Elopa"@tok	.
+yago:Estonia	rdfs:comment	"держава у Північній Європі"@uk	.
+yago:Estonia	rdfs:comment	"Un Land in Europa"@ie	.
+yago:Estonia	schema:alternateName	"EE"@fr	.
+yago:Estonia	schema:alternateName	"Estonujo"@eo	.
+yago:Estonia	schema:alternateName	"EST"@tr	.
+yago:Estonia	schema:alternateName	"Estonya Cumhuriyeti"@tr	.
+yago:Estonia	schema:alternateName	"愛沙尼亞共和國"@lzh	.
+yago:Estonia	schema:alternateName	"Estonia"@gn	.
+yago:Estonia	schema:alternateName	"ee"@tr	.
+yago:Estonia	schema:alternateName	"エストニア共和国"@ja	.
+yago:Estonia	schema:alternateName	"Estteeatnama dásseváldi"@se	.
+yago:Estonia	schema:alternateName	"Republiken Estland"@sv	.
+yago:Estonia	schema:alternateName	"Republika Estonii"@pl	.
+yago:Estonia	schema:alternateName	"EE"@eo	.
+yago:Estonia	schema:alternateName	"Estonia"@roa-tara	.
+yago:Estonia	schema:alternateName	"Republik Estonia"@id	.
+yago:Estonia	schema:alternateName	"Eestijânnam tääʹssväʹldd"@sms	.
+yago:Estonia	schema:alternateName	"Respubliko Estonio"@eo	.
+yago:Estonia	schema:alternateName	"Eesti Vabariik"@et	.
+yago:Estonia	schema:alternateName	"Estlönj"@frr	.
+yago:Estonia	schema:alternateName	"Республика Эстония"@ru	.
+yago:Estonia	schema:alternateName	"Eesti"@fi	.
+yago:Estonia	schema:alternateName	"ee"@pl	.
+yago:Estonia	schema:alternateName	"EST"@nl	.
+yago:Estonia	schema:alternateName	"Estlándda dásseváldi"@se	.
+yago:Estonia	schema:alternateName	"Eesti"@nan	.
+yago:Estonia	schema:alternateName	"Republic of Estonia"@en	.
+yago:Estonia	schema:alternateName	"Eesti Vabariik"@da	.
+yago:Estonia	schema:alternateName	"EST"@pl	.
+yago:Estonia	schema:alternateName	"EST"@en	.
+yago:Estonia	schema:alternateName	"Republik Estland"@de	.
+yago:Estonia	schema:alternateName	"エストラント"@ja	.
+yago:Estonia	schema:alternateName	"Estlánda"@se	.
+yago:Estonia	schema:alternateName	"ߌߛߕߑߟߊ߲ߘ"@nqo	.
+yago:Estonia	schema:alternateName	"Republikken Estland"@da	.
+yago:Estonia	schema:alternateName	"Estniska"@hsb	.
+yago:Estonia	schema:alternateName	"Estonya"@tl	.
+yago:Estonia	schema:alternateName	"Eesti Vabariik"@en	.
+yago:Estonia	schema:alternateName	"Eesti"@pt	.
+yago:Estonia	schema:alternateName	"Repubblika tal-Estonja"@mt	.
+yago:Estonia	schema:alternateName	"ईस्टोनिया"@new	.
+yago:Estonia	schema:alternateName	"República da Estônia"@pt-br	.
+yago:Estonia	schema:alternateName	"Eesti"@pam	.
+yago:Estonia	schema:alternateName	"EST"@et	.
+yago:Estonia	schema:alternateName	"Эстонская Рэспубліка"@be-tarask	.
+yago:Estonia	schema:alternateName	"República da Estónia"@pt	.
+yago:Estonia	schema:alternateName	"Estland"@en	.
+yago:Estonia	schema:alternateName	"Viron tasavalta"@fi	.
+yago:Estonia	schema:alternateName	"Estonia"@pt	.
+yago:Estonia	schema:alternateName	"Republiek van Estland"@af	.
+yago:Estonia	schema:alternateName	"la République d’Estonie"@fr	.
+yago:Estonia	schema:alternateName	"Estonia"@pam	.
+yago:Estonia	schema:alternateName	"EE"@nl	.
+yago:Estonia	schema:alternateName	"🇪🇪"@pl	.
+yago:Estonia	schema:alternateName	"爱沙尼亚共和国"@zh-hans	.
+yago:Estonia	schema:alternateName	"ߌߛߑߕߏߣߌ߫ ߞߊ߲ߓߍ߲"@nqo	.
+yago:Estonia	schema:alternateName	"Republikken Estland"@nb	.
+yago:Estonia	schema:alternateName	"Republica de Estonia"@es	.
+yago:Estonia	schema:alternateName	"جمهورية إستونيا"@ar	.
+yago:Estonia	schema:alternateName	"Эстонская Республика"@ru	.
+yago:Estonia	schema:alternateName	"Eesti"@da	.
+yago:Estonia	schema:alternateName	"Estteeanan"@se	.
+yago:Estonia	schema:alternateName	"استونيا"@ar	.
+yago:Estonia	schema:alternateName	"Eesti"@pl	.
+yago:Estonia	schema:alternateName	"Estland"@en-gb	.
+yago:Estonia	schema:alternateName	"Eesti täsiväldi"@smn	.
+yago:Estonia	schema:alternateName	"República de Estonia"@es	.
+yago:Estonia	schema:alternateName	"République d’Estonie"@fr	.
+yago:Estonia	schema:alternateName	"Esthonie"@fr	.
+yago:Estonia	schema:alternateName	"ee"@en	.
+yago:Estonia	schema:alternateName	"Eesti"@en	.
+yago:Estonia	schema:alternateName	"에스토니아 공화국"@ko	.
+yago:Estonia	schema:alternateName	"🇪🇪"@et	.
+yago:Estonia	schema:alternateName	"Ээсти"@ru	.
+yago:Estonia	schema:alternateName	"Eesti Vabariik"@id	.
+yago:Estonia	schema:alternateName	"愛莎尼亞"@yue	.
+yago:Estonia	schema:alternateName	"Eesti Vabariik"@pt	.
+yago:Estonia	schema:alternateName	"Estónska republika"@sk	.
+yago:Estonia	schema:alternateName	"🇪🇪"@tr	.
+yago:Estonia	schema:alternateName	"Észt Köztársaság"@hu	.
+yago:Estonia	schema:alternateName	"ئیستۆنیا"@ckb	.
+yago:Estonia	schema:alternateName	"🇪🇪"@en	.
+yago:Estonia	rdf:type	yago:Unitary_state	.
+yago:Estonia	rdf:type	yago:Oecd_Country_Q113489728	.
+yago:Estonia	rdf:type	yago:Language-State_Q116843339	.
+yago:Estonia	rdf:type	yago:Country_Bordering_The_Baltic_Sea_Q63791824	.

@@ -1,0 +1,7 @@
+% Find work created in year X
+
+triple(Work, "schema:dateCreated", Year) => createdIn(Work, Year).
+
+createdIn(X, "1988-01-01T00:00:00Z") => $ans(X, "1988-01-01T00:00:00Z").
+
+% .\gkc .\formatted_data\created-in-estonia_formatted.txt .\rules.txt -strategy .\multi.txt

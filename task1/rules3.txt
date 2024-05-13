@@ -1,0 +1,7 @@
+% Find work created in some location
+
+triple(Work, "schema:locationCreated", Location) => createdIn(Work, Location).
+
+createdIn(Work, "yago:Viljandi") => $ans(Work, "yago:Viljandi").
+
+% .\gkc .\formatted_data\created-in-estonia_formatted.txt .\rules3.txt -strategy .\multi.txt

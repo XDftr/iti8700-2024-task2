@@ -1,0 +1,9 @@
+% Find entities associated with Austria and have indications of multiple directors
+triple(Entity, "schema:locationCreated", "yago:Austria") &
+triple(Entity, "schema:director", Director1) &
+triple(Entity, "schema:director", Director2) &
+Director1 = Director2 => associatedWithAustriaAndMultipleDirectors(Entity).
+
+associatedWithAustriaAndMultipleDirectors(Entity) => $ans(Entity, "Associated with Austria, Has Multiple Directors").
+
+% .\gkc .\formatted_data\facts-about-estonia_formatted.txt .\rules4.txt -strategy .\multi.txt

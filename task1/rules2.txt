@@ -1,0 +1,7 @@
+% Find politician
+
+triple(Person, "rdf:type", "yago:Politician") => politician(Person).
+
+politician(X) => $ans(X).
+
+% .\gkc .\formatted_data\people-in-estonia2_formatted.txt .\rules2.txt -strategy .\multi.txt

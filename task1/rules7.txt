@@ -1,0 +1,7 @@
+% Rule to find neighboring countries of Estonia
+triple("yago:Estonia", "schema:neighbors", Neighbor) => neighboringCountry(Neighbor).
+
+% Mark entity as a neighboring country of Estonia
+neighboringCountry(Neighbor) => $ans(Neighbor, "Neighboring country of Estonia").
+
+% .\gkc .\formatted_data\facts-about-estonia_formatted.txt .\rules7.txt -strategy .\multi.txt

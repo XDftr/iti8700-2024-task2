@@ -1,0 +1,4 @@
+{
+"max_answers":3,
+"strategy": ["negative_pref"]
+}

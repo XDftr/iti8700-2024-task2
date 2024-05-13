@@ -1,0 +1,900 @@
+triple("yago:Estonia","schema:populationNumber","+1357739").
+triple("yago:Estonia","owl:sameAs","wd:Q191").
+triple("yago:Estonia","schema:neighbors","yago:Baltic_Sea").
+triple("yago:Estonia","schema:neighbors","yago:Lake_Peipus").
+triple("yago:Estonia","schema:officialLanguage","yago:Estonian_language_generic_instance").
+triple("yago:Estonia","yago:replaces","yago:Governorate_of_Livonia").
+triple("yago:Estonia","yago:replaces","yago:Pskov_Governorate").
+triple("yago:Estonia","yago:replaces","yago:Governorate_of_Estonia").
+triple("yago:Estonia","schema:url","https://www.eesti.ee/en/").
+triple("yago:Estonia","schema:url","https://www.eesti.ee/ru/").
+triple("yago:Estonia","schema:url","https://www.eesti.ee/et/").
+triple("yago:Estonia","schema:demonym","estonià").
+triple("yago:Estonia","schema:demonym","estonianu").
+triple("yago:Estonia","schema:demonym","eestlased").
+triple("yago:Estonia","schema:demonym","észt").
+triple("yago:Estonia","schema:demonym","Estonien").
+triple("yago:Estonia","schema:demonym","إستونيون").
+triple("yago:Estonia","schema:demonym","èstono").
+triple("yago:Estonia","schema:demonym","Εσθονή").
+triple("yago:Estonia","schema:demonym","estoniană").
+triple("yago:Estonia","schema:demonym","virolaiset").
+triple("yago:Estonia","schema:demonym","ester").
+triple("yago:Estonia","schema:demonym","estoni").
+triple("yago:Estonia","schema:demonym","אסטונית").
+triple("yago:Estonia","schema:demonym","estoniana").
+triple("yago:Estonia","schema:demonym","estonian").
+triple("yago:Estonia","schema:demonym","Εσθονοί").
+triple("yago:Estonia","schema:demonym","эстонец").
+triple("yago:Estonia","schema:demonym","Estin").
+triple("yago:Estonia","schema:demonym","естонці").
+triple("yago:Estonia","schema:demonym","естонка").
+triple("yago:Estonia","schema:demonym","estonieni").
+triple("yago:Estonia","schema:demonym","эстонцы").
+triple("yago:Estonia","schema:demonym","èstona").
+triple("yago:Estonia","schema:demonym","إستونية").
+triple("yago:Estonia","schema:demonym","эстонка").
+triple("yago:Estonia","schema:demonym","Lestiyänan").
+triple("yago:Estonia","schema:demonym","Este").
+triple("yago:Estonia","schema:demonym","إستوني").
+triple("yago:Estonia","schema:demonym","Estoniano").
+triple("yago:Estonia","schema:demonym","Εσθονός").
+triple("yago:Estonia","schema:demonym","esti").
+triple("yago:Estonia","schema:demonym","אסטוני").
+triple("yago:Estonia","schema:demonym","igauņi").
+triple("yago:Estonia","schema:demonym","estlænder").
+triple("yago:Estonia","schema:demonym","Estonian").
+triple("yago:Estonia","schema:demonym","естонець").
+triple("yago:Estonia","schema:demonym","èstone").
+triple("yago:Estonia","schema:demonym","Estonienne").
+triple("yago:Estonia","schema:demonym","эстонки").
+triple("yago:Estonia","schema:demonym","estoniana").
+triple("yago:Estonia","schema:demonym","এস্তোনীয়").
+triple("yago:Estonia","schema:demonym","Est").
+triple("yago:Estonia","schema:demonym","estnisch").
+triple("yago:Estonia","schema:demonym","estone").
+triple("yago:Estonia","schema:demonym","èstoni").
+triple("yago:Estonia","schema:neighbors","yago:Latvia").
+triple("yago:Estonia","schema:neighbors","yago:Russia").
+triple("yago:Estonia","schema:leader","yago:Kaja_Kallas").
+triple("yago:Estonia","schema:leader","yago:Alar_Karis").
+triple("yago:Estonia","schema:area","+45339").
+triple("yago:Estonia","schema:memberOf","yago:International_Centre_for_Settlement_of_Investment_Disputes").
+triple("yago:Estonia","schema:memberOf","yago:NATO").
+triple("yago:Estonia","schema:memberOf","yago:International_Energy_Agency").
+triple("yago:Estonia","schema:memberOf","yago:Movement_Coordination_Centre_Europe").
+triple("yago:Estonia","schema:memberOf","yago:Interpol").
+triple("yago:Estonia","schema:memberOf","yago:Eurocontrol").
+triple("yago:Estonia","schema:memberOf","yago:International_Atomic_Energy_Agency").
+triple("yago:Estonia","schema:memberOf","yago:Organisation_for_the_Prohibition_of_Chemical_Weapons").
+triple("yago:Estonia","schema:memberOf","yago:Group_on_Earth_Observations").
+triple("yago:Estonia","schema:memberOf","yago:Council_of_Europe").
+triple("yago:Estonia","schema:memberOf","yago:Baltic_Assembly").
+triple("yago:Estonia","schema:memberOf","yago:International_Bank_for_Reconstruction_and_Development").
+triple("yago:Estonia","schema:memberOf","yago:League_of_Nations_generic_instance").
+triple("yago:Estonia","schema:memberOf","yago:European_Union").
+triple("yago:Estonia","schema:memberOf","yago:UNESCO").
+triple("yago:Estonia","schema:memberOf","yago:Strategic_Airlift_Capability").
+triple("yago:Estonia","schema:memberOf","yago:Council_of_the_Baltic_Sea_States").
+triple("yago:Estonia","schema:memberOf","yago:Nuclear_Suppliers_Group").
+triple("yago:Estonia","schema:memberOf","yago:World_Meteorological_Organization").
+triple("yago:Estonia","schema:memberOf","yago:International_Telecommunication_Union").
+triple("yago:Estonia","schema:memberOf","yago:World_Health_Organization").
+triple("yago:Estonia","schema:memberOf","yago:World_Trade_Organization").
+triple("yago:Estonia","schema:memberOf","yago:Australia_Group").
+triple("yago:Estonia","schema:memberOf","yago:International_Finance_Corporation").
+triple("yago:Estonia","schema:memberOf","yago:United_Nations_generic_instance").
+triple("yago:Estonia","schema:memberOf","yago:Nordic_Battlegroup").
+triple("yago:Estonia","schema:memberOf","yago:Multilateral_Investment_Guarantee_Agency").
+triple("yago:Estonia","schema:memberOf","yago:Organization_for_Security_and_Co-operation_in_Europe").
+triple("yago:Estonia","schema:memberOf","yago:OECD").
+triple("yago:Estonia","schema:memberOf","yago:Universal_Postal_Union").
+triple("yago:Estonia","schema:memberOf","yago:International_Development_Association").
+triple("yago:Estonia","schema:memberOf","yago:International_Hydrographic_Organization").
+triple("yago:Estonia","schema:unemploymentRate","+8").
+triple("yago:Estonia","schema:unemploymentRate","+5.4").
+triple("yago:Estonia","schema:highestPoint","yago:Suur_Munamägi").
+triple("yago:Estonia","schema:lowestPoint","yago:Baltic_Sea").
+triple("yago:Estonia","schema:sameAs","/m/02kmm").
+triple("yago:Estonia","schema:sameAs","/m/0k2qk2v").
+triple("yago:Estonia","schema:geo","Point(26 59)").
+triple("yago:Estonia","yago:capital","yago:Tallinn").
+triple("yago:Estonia","schema:administrates","yago:Valga_County").
+triple("yago:Estonia","schema:administrates","yago:Harju_County").
+triple("yago:Estonia","schema:administrates","yago:Rapla_County").
+triple("yago:Estonia","schema:administrates","yago:Tartu_County").
+triple("yago:Estonia","schema:administrates","yago:Saare_County").
+triple("yago:Estonia","schema:administrates","yago:Võru_County").
+triple("yago:Estonia","schema:administrates","yago:Viljandi_County").
+triple("yago:Estonia","schema:administrates","yago:Pärnu_County").
+triple("yago:Estonia","schema:administrates","yago:Järva_County").
+triple("yago:Estonia","schema:administrates","yago:Hiiu_County").
+triple("yago:Estonia","schema:administrates","yago:Lääne-Viru_County").
+triple("yago:Estonia","schema:administrates","yago:Lääne_County").
+triple("yago:Estonia","schema:administrates","yago:Põlva_County").
+triple("yago:Estonia","schema:administrates","yago:Jõgeva_County").
+triple("yago:Estonia","schema:administrates","yago:Ida-Viru_County").
+triple("yago:Estonia","schema:motto","Epic Estonia").
+triple("yago:Estonia","schema:dateCreated","1918-02-24T00:00:00Z").
+triple("yago:Estonia","schema:humanDevelopmentIndex","+0.890").
+triple("yago:Estonia","rdfs:label","Естонія").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Viro").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","اېسټونيا").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстон").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","IWestoniya").
+triple("yago:Estonia","rdfs:label","Etóña").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Էսթոնիա").
+triple("yago:Estonia","rdfs:label","Эстонія").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Igauneja").
+triple("yago:Estonia","rdfs:label","Эстиче").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","ኤስቶኒያ").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Эстон").
+triple("yago:Estonia","rdfs:label","Ēstimō").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Esitoniya").
+triple("yago:Estonia","rdfs:label","Εσθονία").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","I-Estoniya").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eschdooni").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","ཨིསི་ཊོ་ནི་ཡ།").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Stónia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","estis").
+triple("yago:Estonia","rdfs:label","ປະເທດແອສະໂຕນີ").
+triple("yago:Estonia","rdfs:label","Estonio").
+triple("yago:Estonia","rdfs:label","Esitonia").
+triple("yago:Estonia","rdfs:label","אסטוניה").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estlaante").
+triple("yago:Estonia","rdfs:label","에스토니아").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Эстму").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Éstonie").
+triple("yago:Estonia","rdfs:label","Iṣṭuniya").
+triple("yago:Estonia","rdfs:label","Estògna").
+triple("yago:Estonia","rdfs:label","এস্তোনিয়া").
+triple("yago:Estonia","rdfs:label","Estlandi").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","အက်စ်တိုးနီးယားနိုင်ငံ").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Igaunija").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estniska").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ئەستۆنیا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estônia").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estónsko").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estlân").
+triple("yago:Estonia","rdfs:label","Estonnie").
+triple("yago:Estonia","rdfs:label","Estiska").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonsko").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eistland").
+triple("yago:Estonia","rdfs:label","اسٹونیا").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","এস্তোনিয়া").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Yn Estaan").
+triple("yago:Estonia","rdfs:label","ესტონეთი").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","မိူင်းဢႄႇသတူဝ်းၼီးယႃး").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","អេស្តូនី").
+triple("yago:Estonia","rdfs:label","'Esitonia").
+triple("yago:Estonia","rdfs:label","ਏਸਟੋਨੀਆ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eestland").
+triple("yago:Estonia","rdfs:label","استونیا").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Éstonia").
+triple("yago:Estonia","rdfs:label","Eestlun").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ᎡᏍᏙᏂᏱ").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","ʻEsetonia").
+triple("yago:Estonia","rdfs:label","Estoniýa").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Lestiyän").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","ᐃᔅᑑᓂᐊ").
+triple("yago:Estonia","rdfs:label","ܐܣܛܘܢܝܐ").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Èstonia").
+triple("yago:Estonia","rdfs:label","Эстониэ").
+triple("yago:Estonia","rdfs:label","Ɛsɩtoonii").
+triple("yago:Estonia","rdfs:label","எசுத்தோனியா").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","Eestia").
+triple("yago:Estonia","rdfs:label","Estija").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","استونيا").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","ઈસ્ટોનિયા").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","ma Esi").
+triple("yago:Estonia","rdfs:label","An Eastóin").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Էստոնիա").
+triple("yago:Estonia","rdfs:label","استونیا").
+triple("yago:Estonia","rdfs:label","Esti").
+triple("yago:Estonia","rdfs:label","ประเทศเอสโตเนีย").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ꯑꯦꯁ꯭ꯇꯣꯅꯤꯌꯥ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","ᱮᱥᱛᱳᱱᱤᱭᱟ").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estlaand").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Esland").
+triple("yago:Estonia","rdfs:label","එස්ටෝනියා").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonja").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estůńijo").
+triple("yago:Estonia","rdfs:label","Estteeana").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Естонія").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ఎస్టోనియా").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estóńskô").
+triple("yago:Estonia","rdfs:label","إسطونيا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Естония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эсти мастор").
+triple("yago:Estonia","rdfs:label","hEstuonia").
+triple("yago:Estonia","rdfs:label","Eestijânnam").
+triple("yago:Estonia","rdfs:label","エストニア").
+triple("yago:Estonia","rdfs:label","Estounii").
+triple("yago:Estonia","rdfs:label","Эстдин Орн").
+triple("yago:Estonia","rdfs:label","Эстоний").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Észtország").
+triple("yago:Estonia","rdfs:label","ಎಸ್ಟೊನಿಯ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","ესტონეთი").
+triple("yago:Estonia","rdfs:label","أستونيا").
+triple("yago:Estonia","rdfs:label","Istooniyaa").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Eastòinia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Etoni").
+triple("yago:Estonia","rdfs:label","എസ്റ്റോണിയ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estóníà").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","Istoniya").
+triple("yago:Estonia","rdfs:label","Estėjė").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estlound").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estlenikondre").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Etonia").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Эстоние").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estooni").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","ଏଷ୍ଟୋନିଆ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estinma").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстэнь Мастор").
+triple("yago:Estonia","rdfs:label","Estlánnda").
+triple("yago:Estonia","rdfs:label","Єсть").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Istunya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстонія").
+triple("yago:Estonia","rdfs:label","إستونيا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Isṭuni").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ئېستونىيە").
+triple("yago:Estonia","rdfs:label","ߌߛߑߕߏߣߌ߫").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Hakázítah Dineʼé Bikéyah").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Etoniya").
+triple("yago:Estonia","rdfs:label","עסטלאנד").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ཨིསུ་ཊོ་ནིཡ།").
+triple("yago:Estonia","rdfs:label","Estoneye").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Èstonie").
+triple("yago:Estonia","rdfs:label","اسٽونيا").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Естониа").
+triple("yago:Estonia","rdfs:label","Εσθονία").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ایستونی").
+triple("yago:Estonia","rdfs:label","𐌰𐌹𐍃𐍄𐌰𐌻𐌰𐌽𐌳").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:label","Естонія").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Viro").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","اېسټونيا").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстон").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","IWestoniya").
+triple("yago:Estonia","rdfs:label","Etóña").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Էսթոնիա").
+triple("yago:Estonia","rdfs:label","Эстонія").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Igauneja").
+triple("yago:Estonia","rdfs:label","Эстиче").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","ኤስቶኒያ").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Эстон").
+triple("yago:Estonia","rdfs:label","Ēstimō").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Esitoniya").
+triple("yago:Estonia","rdfs:label","Εσθονία").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","I-Estoniya").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eschdooni").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","ཨིསི་ཊོ་ནི་ཡ།").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Stónia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","estis").
+triple("yago:Estonia","rdfs:label","ປະເທດແອສະໂຕນີ").
+triple("yago:Estonia","rdfs:label","Estonio").
+triple("yago:Estonia","rdfs:label","Esitonia").
+triple("yago:Estonia","rdfs:label","אסטוניה").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estlaante").
+triple("yago:Estonia","rdfs:label","에스토니아").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Эстму").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Éstonie").
+triple("yago:Estonia","rdfs:label","Iṣṭuniya").
+triple("yago:Estonia","rdfs:label","Estògna").
+triple("yago:Estonia","rdfs:label","এস্তোনিয়া").
+triple("yago:Estonia","rdfs:label","Estlandi").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","အက်စ်တိုးနီးယားနိုင်ငံ").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Igaunija").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estniska").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ئەستۆنیا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estônia").
+triple("yago:Estonia","rdfs:label","Estónia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estónsko").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estlân").
+triple("yago:Estonia","rdfs:label","Estonnie").
+triple("yago:Estonia","rdfs:label","Estiska").
+triple("yago:Estonia","rdfs:label","Естонија").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonsko").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eistland").
+triple("yago:Estonia","rdfs:label","اسٹونیا").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","এস্তোনিয়া").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Yn Estaan").
+triple("yago:Estonia","rdfs:label","ესტონეთი").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","မိူင်းဢႄႇသတူဝ်းၼီးယႃး").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","អេស្តូនី").
+triple("yago:Estonia","rdfs:label","'Esitonia").
+triple("yago:Estonia","rdfs:label","ਏਸਟੋਨੀਆ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Eestland").
+triple("yago:Estonia","rdfs:label","استونیا").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Éstonia").
+triple("yago:Estonia","rdfs:label","Eestlun").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ᎡᏍᏙᏂᏱ").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","ʻEsetonia").
+triple("yago:Estonia","rdfs:label","Estoniýa").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Lestiyän").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","ᐃᔅᑑᓂᐊ").
+triple("yago:Estonia","rdfs:label","ܐܣܛܘܢܝܐ").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Èstonia").
+triple("yago:Estonia","rdfs:label","Эстониэ").
+triple("yago:Estonia","rdfs:label","Ɛsɩtoonii").
+triple("yago:Estonia","rdfs:label","எசுத்தோனியா").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","Eestia").
+triple("yago:Estonia","rdfs:label","Estija").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","استونيا").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","ઈસ્ટોનિયા").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","ma Esi").
+triple("yago:Estonia","rdfs:label","An Eastóin").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","Էստոնիա").
+triple("yago:Estonia","rdfs:label","استونیا").
+triple("yago:Estonia","rdfs:label","Esti").
+triple("yago:Estonia","rdfs:label","ประเทศเอสโตเนีย").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ꯑꯦꯁ꯭ꯇꯣꯅꯤꯌꯥ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","ᱮᱥᱛᱳᱱᱤᱭᱟ").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estlaand").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Esland").
+triple("yago:Estonia","rdfs:label","එස්ටෝනියා").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonja").
+triple("yago:Estonia","rdfs:label","استونی").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estůńijo").
+triple("yago:Estonia","rdfs:label","Estteeana").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Естонія").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ఎస్టోనియా").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estonya").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estóńskô").
+triple("yago:Estonia","rdfs:label","إسطونيا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Естония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эсти мастор").
+triple("yago:Estonia","rdfs:label","hEstuonia").
+triple("yago:Estonia","rdfs:label","Eestijânnam").
+triple("yago:Estonia","rdfs:label","エストニア").
+triple("yago:Estonia","rdfs:label","Estounii").
+triple("yago:Estonia","rdfs:label","Эстдин Орн").
+triple("yago:Estonia","rdfs:label","Эстоний").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Észtország").
+triple("yago:Estonia","rdfs:label","ಎಸ್ಟೊನಿಯ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonija").
+triple("yago:Estonia","rdfs:label","ესტონეთი").
+triple("yago:Estonia","rdfs:label","أستونيا").
+triple("yago:Estonia","rdfs:label","Istooniyaa").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Eastòinia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Etoni").
+triple("yago:Estonia","rdfs:label","എസ്റ്റോണിയ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстони").
+triple("yago:Estonia","rdfs:label","Estóníà").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","Istoniya").
+triple("yago:Estonia","rdfs:label","Estėjė").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","Estlound").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estlenikondre").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Estland").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Etonia").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Эстоние").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estooni").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","ଏଷ୍ଟୋନିଆ").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estinma").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстэнь Мастор").
+triple("yago:Estonia","rdfs:label","Estlánnda").
+triple("yago:Estonia","rdfs:label","Єсть").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Istunya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","愛沙尼亞").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Эстонія").
+triple("yago:Estonia","rdfs:label","إستونيا").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Isṭuni").
+triple("yago:Estonia","rdfs:label","Эстония").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ئېستونىيە").
+triple("yago:Estonia","rdfs:label","ߌߛߑߕߏߣߌ߫").
+triple("yago:Estonia","rdfs:label","Estoni").
+triple("yago:Estonia","rdfs:label","Estonie").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","爱沙尼亚").
+triple("yago:Estonia","rdfs:label","एस्टोनिया").
+triple("yago:Estonia","rdfs:label","Hakázítah Dineʼé Bikéyah").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Etoniya").
+triple("yago:Estonia","rdfs:label","עסטלאנד").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","Estoniya").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ཨིསུ་ཊོ་ནིཡ།").
+triple("yago:Estonia","rdfs:label","Estoneye").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Èstonie").
+triple("yago:Estonia","rdfs:label","اسٽونيا").
+triple("yago:Estonia","rdfs:label","Estònia").
+triple("yago:Estonia","rdfs:label","Естониа").
+triple("yago:Estonia","rdfs:label","Εσθονία").
+triple("yago:Estonia","rdfs:label","Estonia").
+triple("yago:Estonia","rdfs:label","ایستونی").
+triple("yago:Estonia","rdfs:label","𐌰𐌹𐍃𐍄𐌰𐌻𐌰𐌽𐌳").
+triple("yago:Estonia","rdfs:label","इस्टोनिया").
+triple("yago:Estonia","rdfs:label","Eesti").
+triple("yago:Estonia","rdfs:comment","држава у северној Европи").
+triple("yago:Estonia","rdfs:comment","وڵاتی باڵادەست لە باکووری ڕۆژھەڵاتی ئەورووپا").
+triple("yago:Estonia","rdfs:comment","युरोपको देश").
+triple("yago:Estonia","rdfs:comment","republika king Pangulung Europa").
+triple("yago:Estonia","rdfs:comment","valsts Ziemeļeiropā, viena no trim Baltijas valstīm").
+triple("yago:Estonia","rdfs:comment","מדינה מזרח אירופאית").
+triple("yago:Estonia","rdfs:comment","lando en norda Eŭropo, apud Finna Golfo kaj Balta Maro, norda de Latvio, okcidenta de Rusio").
+triple("yago:Estonia","rdfs:comment","উত্তর-পূর্ব ইউরোপের সার্বভৌম রাষ্ট্র").
+triple("yago:Estonia","rdfs:comment","Staat in Nordeuropa").
+triple("yago:Estonia","rdfs:comment","país da Europa").
+triple("yago:Estonia","rdfs:comment","Quốc gia ở khu vực Bắc Âu").
+triple("yago:Estonia","rdfs:comment","สาธารณรัฐในยุโรปเหนือ").
+triple("yago:Estonia","rdfs:comment","land i Europa").
+triple("yago:Estonia","rdfs:comment","북유럽의 국가").
+triple("yago:Estonia","rdfs:comment","Land í Norður-Evrópu").
+triple("yago:Estonia","rdfs:comment","država u sjeveroistočnoj Evropi").
+triple("yago:Estonia","rdfs:comment","Staat in Nordeuropa").
+triple("yago:Estonia","rdfs:comment","بلاد جات ف شمال ؤروپا").
+triple("yago:Estonia","rdfs:comment","un dos tres países bálticos").
+triple("yago:Estonia","rdfs:comment","pagilian idiay Europa").
+triple("yago:Estonia","rdfs:comment","sovereign state in northeastern Europe").
+triple("yago:Estonia","rdfs:comment","nordeuropæisk land").
+triple("yago:Estonia","rdfs:comment","land i Europa").
+triple("yago:Estonia","rdfs:comment","stát v severní Evropě").
+triple("yago:Estonia","rdfs:comment","republik i Nordeuropa").
+triple("yago:Estonia","rdfs:comment","stat w sewjerowuchodnej Europje").
+triple("yago:Estonia","rdfs:comment","國家").
+triple("yago:Estonia","rdfs:comment","государство в Северной Европе").
+triple("yago:Estonia","rdfs:comment","歐洲國家").
+triple("yago:Estonia","rdfs:comment","country in Eastern Europe").
+triple("yago:Estonia","rdfs:comment","país europeu, membre de la Unió Europea").
+triple("yago:Estonia","rdfs:comment","riika Eurohpás").
+triple("yago:Estonia","rdfs:comment","उत्तरी यूरोप के बाल्टिक क्षेत्र में स्थित एक देश").
+triple("yago:Estonia","rdfs:comment","land in Europa").
+triple("yago:Estonia","rdfs:comment","país europeu").
+triple("yago:Estonia","rdfs:comment","valtio Itämeren itärannalla Pohjois-Euroopassa Suomenlahden eteläpuolella").
+triple("yago:Estonia","rdfs:comment","Vabariik Põhja-Euroopas").
+triple("yago:Estonia","rdfs:comment","Staat im Baltikum").
+triple("yago:Estonia","rdfs:comment","država u sjeveroistočnoj Europi").
+triple("yago:Estonia","rdfs:comment","波罗的海沿岸国家").
+triple("yago:Estonia","rdfs:comment","國家").
+triple("yago:Estonia","rdfs:comment","land in Noordoos-Europa").
+triple("yago:Estonia","rdfs:comment","држава во Источна Европа").
+triple("yago:Estonia","rdfs:comment","دولة تقع في شمال أوروبا").
+triple("yago:Estonia","rdfs:comment","اتر اوڀر يورپ جو هڪ ملڪ").
+triple("yago:Estonia","rdfs:comment","civitas Europae").
+triple("yago:Estonia","rdfs:comment","χώρα στην ανατολική Ευρώπη").
+triple("yago:Estonia","rdfs:comment","պետություն").
+triple("yago:Estonia","rdfs:comment","štát v severovýchodnej Európe").
+triple("yago:Estonia","rdfs:comment","држава у североисточној Европи").
+triple("yago:Estonia","rdfs:comment","pays d'Europe").
+triple("yago:Estonia","rdfs:comment","Stato dell'Europa nord-orientale, membro dell'Unione europea").
+triple("yago:Estonia","rdfs:comment","държава в Източна Европа").
+triple("yago:Estonia","rdfs:comment","país d'Europa").
+triple("yago:Estonia","rdfs:comment","peyi ki nan kontinan Ewòp").
+triple("yago:Estonia","rdfs:comment","pàize de l'Eoröpa").
+triple("yago:Estonia","rdfs:comment","balti állam Észak-Európában").
+triple("yago:Estonia","rdfs:comment","ߋߙߐߔߎ߬ ߞߐ߬ߘߎ߮-ߕߟߋ߬ߓߐ ߞߊ߬ߝߏ߫ ߡߊ߲߭ߕߎ߬ߙߋ ߘߏ߫").
+triple("yago:Estonia","rdfs:comment","republic in North Europe").
+triple("yago:Estonia","rdfs:comment","stat sovran fl-Ewropa tal-Grigal").
+triple("yago:Estonia","rdfs:comment","țară din Europa").
+triple("yago:Estonia","rdfs:comment","država v Evropi").
+triple("yago:Estonia","rdfs:comment","país de Europa").
+triple("yago:Estonia","rdfs:comment","کشوری در قاره اروپا").
+triple("yago:Estonia","rdfs:comment","Estau d'Europa").
+triple("yago:Estonia","rdfs:comment","država u severnoj Evropi").
+triple("yago:Estonia","rdfs:comment","યુરોપના બાલ્ટિક ક્ષેત્ર માં સ્થિત એક દેશ").
+triple("yago:Estonia","rdfs:comment","Kuzey Avrupa'da bir ülke").
+triple("yago:Estonia","rdfs:comment","negara di Eropa Utara").
+triple("yago:Estonia","rdfs:comment","państwo w Europie").
+triple("yago:Estonia","rdfs:comment","北ヨーロッパの国").
+triple("yago:Estonia","rdfs:comment","مُلُک").
+triple("yago:Estonia","rdfs:comment","ma lon ma Elopa").
+triple("yago:Estonia","rdfs:comment","держава у Північній Європі").
+triple("yago:Estonia","rdfs:comment","Un Land in Europa").
+triple("yago:Estonia","schema:alternateName","EE").
+triple("yago:Estonia","schema:alternateName","Estonujo").
+triple("yago:Estonia","schema:alternateName","EST").
+triple("yago:Estonia","schema:alternateName","Estonya Cumhuriyeti").
+triple("yago:Estonia","schema:alternateName","愛沙尼亞共和國").
+triple("yago:Estonia","schema:alternateName","Estonia").
+triple("yago:Estonia","schema:alternateName","ee").
+triple("yago:Estonia","schema:alternateName","エストニア共和国").
+triple("yago:Estonia","schema:alternateName","Estteeatnama dásseváldi").
+triple("yago:Estonia","schema:alternateName","Republiken Estland").
+triple("yago:Estonia","schema:alternateName","Republika Estonii").
+triple("yago:Estonia","schema:alternateName","EE").
+triple("yago:Estonia","schema:alternateName","Estonia").
+triple("yago:Estonia","schema:alternateName","Republik Estonia").
+triple("yago:Estonia","schema:alternateName","Eestijânnam tääʹssväʹldd").
+triple("yago:Estonia","schema:alternateName","Respubliko Estonio").
+triple("yago:Estonia","schema:alternateName","Eesti Vabariik").
+triple("yago:Estonia","schema:alternateName","Estlönj").
+triple("yago:Estonia","schema:alternateName","Республика Эстония").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","ee").
+triple("yago:Estonia","schema:alternateName","EST").
+triple("yago:Estonia","schema:alternateName","Estlándda dásseváldi").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","Republic of Estonia").
+triple("yago:Estonia","schema:alternateName","Eesti Vabariik").
+triple("yago:Estonia","schema:alternateName","EST").
+triple("yago:Estonia","schema:alternateName","EST").
+triple("yago:Estonia","schema:alternateName","Republik Estland").
+triple("yago:Estonia","schema:alternateName","エストラント").
+triple("yago:Estonia","schema:alternateName","Estlánda").
+triple("yago:Estonia","schema:alternateName","ߌߛߕߑߟߊ߲ߘ").
+triple("yago:Estonia","schema:alternateName","Republikken Estland").
+triple("yago:Estonia","schema:alternateName","Estniska").
+triple("yago:Estonia","schema:alternateName","Estonya").
+triple("yago:Estonia","schema:alternateName","Eesti Vabariik").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","Repubblika tal-Estonja").
+triple("yago:Estonia","schema:alternateName","ईस्टोनिया").
+triple("yago:Estonia","schema:alternateName","República da Estônia").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","EST").
+triple("yago:Estonia","schema:alternateName","Эстонская Рэспубліка").
+triple("yago:Estonia","schema:alternateName","República da Estónia").
+triple("yago:Estonia","schema:alternateName","Estland").
+triple("yago:Estonia","schema:alternateName","Viron tasavalta").
+triple("yago:Estonia","schema:alternateName","Estonia").
+triple("yago:Estonia","schema:alternateName","Republiek van Estland").
+triple("yago:Estonia","schema:alternateName","la République d’Estonie").
+triple("yago:Estonia","schema:alternateName","Estonia").
+triple("yago:Estonia","schema:alternateName","EE").
+triple("yago:Estonia","schema:alternateName","🇪🇪").
+triple("yago:Estonia","schema:alternateName","爱沙尼亚共和国").
+triple("yago:Estonia","schema:alternateName","ߌߛߑߕߏߣߌ߫ ߞߊ߲ߓߍ߲").
+triple("yago:Estonia","schema:alternateName","Republikken Estland").
+triple("yago:Estonia","schema:alternateName","Republica de Estonia").
+triple("yago:Estonia","schema:alternateName","جمهورية إستونيا").
+triple("yago:Estonia","schema:alternateName","Эстонская Республика").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","Estteeanan").
+triple("yago:Estonia","schema:alternateName","استونيا").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","Estland").
+triple("yago:Estonia","schema:alternateName","Eesti täsiväldi").
+triple("yago:Estonia","schema:alternateName","República de Estonia").
+triple("yago:Estonia","schema:alternateName","République d’Estonie").
+triple("yago:Estonia","schema:alternateName","Esthonie").
+triple("yago:Estonia","schema:alternateName","ee").
+triple("yago:Estonia","schema:alternateName","Eesti").
+triple("yago:Estonia","schema:alternateName","에스토니아 공화국").
+triple("yago:Estonia","schema:alternateName","🇪🇪").
+triple("yago:Estonia","schema:alternateName","Ээсти").
+triple("yago:Estonia","schema:alternateName","Eesti Vabariik").
+triple("yago:Estonia","schema:alternateName","愛莎尼亞").
+triple("yago:Estonia","schema:alternateName","Eesti Vabariik").
+triple("yago:Estonia","schema:alternateName","Estónska republika").
+triple("yago:Estonia","schema:alternateName","🇪🇪").
+triple("yago:Estonia","schema:alternateName","Észt Köztársaság").
+triple("yago:Estonia","schema:alternateName","ئیستۆنیا").
+triple("yago:Estonia","schema:alternateName","🇪🇪").
+triple("yago:Estonia","rdf:type","yago:Unitary_state").
+triple("yago:Estonia","rdf:type","yago:Oecd_Country_Q113489728").
+triple("yago:Estonia","rdf:type","yago:Language-State_Q116843339").
+triple("yago:Estonia","rdf:type","yago:Country_Bordering_The_Baltic_Sea_Q63791824").

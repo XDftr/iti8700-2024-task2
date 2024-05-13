@@ -1,0 +1,7 @@
+% Rule to find the population of Estonia
+triple(Entity, "schema:populationNumber", Population) & Entity = "yago:Estonia" => populationOfEstonia(Population).
+
+% Mark population of Estonia
+populationOfEstonia(Population) => $ans("Population of Estonia", Population).
+
+% .\gkc .\formatted_data\facts-about-estonia_formatted.txt .\rules9.txt -strategy .\multi.txt

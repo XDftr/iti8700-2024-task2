@@ -1,0 +1,7 @@
+% Rule to find the capital of Estonia
+triple("yago:Estonia", "yago:capital", Capital) => capitalOfEstonia(Capital).
+
+% Mark entity as the capital of Estonia
+capitalOfEstonia(Capital) => $ans(Capital, "Capital of Estonia").
+
+% .\gkc .\formatted_data\facts-about-estonia_formatted.txt .\rules8.txt -strategy .\multi.txt
