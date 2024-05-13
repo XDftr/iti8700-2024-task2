@@ -1,0 +1,20 @@
+Statements:
+A red apple fell from the tree this morning. The tree is located in the central park and is over 50 years old. The park is home to over 100 different types of trees. The oldest tree in the park is 50 years old
+
+Question:
+Is the tree that dropped the apple the oldest in the park?
+
+GPT response
+0.5::is_red(apple).
+0.7::falls_from(apple, tree).
+0.6::located_in(tree, park).
+0.9::over_50_years_old(tree).
+0.8::home_to(park, types_of_trees).
+0.5::over_100(types_of_trees).
+0.5::oldest(tree).
+
+oldest(tree) :- located_in(tree, central_park), over_50_years_old(tree).
+query(oldest(tree) :- falls_from(apple, tree)). % ParseError: Ambiguous token role at 10:1.
+
+Problog response:
+Error

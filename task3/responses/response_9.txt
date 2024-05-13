@@ -1,0 +1,17 @@
+Statements:
+An owl hoots at night near the old barn on Elm Street. The barn was built in the 1920s and is now a historical landmark. The owl has nested there for the past three years. The owls are protected if they are in a historical landmark
+
+Question:
+Is the owl considered a protected species in this area?
+
+GPT response
+owl_hoots(elm_street) :: 0.8 ; 0.2. % GroundingError: Unexpected fact '0.8'.
+barn_built_1920s :: 0.9 ; 0.1.
+barn_historical_landmark :: 0.7 ; 0.3.
+owl_nested_past_three_years :: 0.9 ; 0.1.
+protected_species(X) :- owl_hoots(X), barn_built_1920s, barn_historical_landmark, owl_nested_past_three_years.
+
+query(protected_species(elm_street)).
+
+Problog response:
+Error

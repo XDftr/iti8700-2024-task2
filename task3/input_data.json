@@ -1,0 +1,42 @@
+[
+    {
+        "facts": "Sally teaches math at a university. The university offers 200 math classes annually. The university has a student population of 500. The university is large if it  has more than 1000 students",
+        "question": "Is the university considered large"
+    },
+    {
+        "facts": "Tom repaired a car in the garage yesterday. The car was a vintage model from 1978. The garage is known for specializing in vintage cars and not current ones.",
+        "question": "Does the garage repair modern cars?"
+    },
+    {
+        "facts": "A red apple fell from the tree this morning. The tree is located in the central park and is over 50 years old. The park is home to over 100 different types of trees. The oldest tree in the park is 50 years old",
+        "question": "Is the tree that dropped the apple the oldest in the park?"
+    },
+    {
+        "facts": "Jane visited Paris last summer. During her visit, she stayed at a hotel near the Eiffel Tower. The hotel has been rated as four stars.  The highest-rated hotel in Paris is 5 stars",
+        "question": "Is the hotel Jane stayed at the highest-rated hotel in Paris?"
+    },
+    {
+        "facts": "A cat chased a mouse in the garden today. The garden belongs to Mrs. Green, who is an avid gardener. There are over 20 species of flowers in the garden. There are only flowers in the garden",
+        "question": "Does the garden also contain a vegetable patch?"
+    },
+    {
+        "facts": "The old tree has fallen due to the storm last night. The tree was considered the tallest in the neighborhood. The storm had wind speeds reaching up to 80 mph. It takes 50mph to uproot a tree",
+        "question": "did a tree get uprooted?"
+    },
+    {
+        "facts": "Every morning, birds sing beautifully in the forest near the lake. The forest covers an area of 300 acres. There are approximately 500 birds of various species in the forest. the park is a national park if it has over 200 acres of area",
+        "question": "Is the forest considered a national park?"
+    },
+    {
+        "facts": "Children play soccer in the park every Saturday. The park has three soccer fields. The fields were renovated last year to international standards adding in a baseball field. The children play baseball on off days",
+        "question": "Are there any other sports played in the park besides soccer?"
+    },
+    {
+        "facts": "An owl hoots at night near the old barn on Elm Street. The barn was built in the 1920s and is now a historical landmark. The owl has nested there for the past three years. The owls are protected if they are in a historical landmark",
+        "question": "Is the owl considered a protected species in this area?"
+    },
+    {
+        "facts": "The musician played the violin at the concert last night. The concert was held at the city auditorium, which seats 1000 people. The violin used was a Stradivarius. the Stradivarius is 500 years old. The Auditorium is 50 years old",
+        "question": "Is the Stradivarius violin older than the auditorium?"
+    }
+]

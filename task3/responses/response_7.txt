@@ -1,0 +1,19 @@
+Statements:
+Every morning, birds sing beautifully in the forest near the lake. The forest covers an area of 300 acres. There are approximately 500 birds of various species in the forest. the park is a national park if it has over 200 acres of area
+
+Question:
+Is the forest considered a national park?
+
+GPT response
+area(forest, 300).
+population(birds, 500).
+location(forest, near_lake).
+habitat(birds, forest).
+beautifully_singing(birds, morning).
+
+national_park(forest) :- area(forest, X), X > 200.
+
+query(national_park(forest)).
+
+Problog response:
+{national_park(forest): 1.0}

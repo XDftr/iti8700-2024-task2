@@ -1,0 +1,20 @@
+Statements:
+Tom repaired a car in the garage yesterday. The car was a vintage model from 1978. The garage is known for specializing in vintage cars and not current ones.
+
+Question:
+Does the garage repair modern cars?
+
+GPT response
+0.7::car(X) :- vintage_car(X).
+0.3::car(X) :- modern_car(X).
+
+vintage_car(X) :- car(X), year(X,1978).
+modern_car(X) :- car(X), \+vintage_car(X).
+
+specializes(garage, vintage_car).
+
+repair(X,garage,yesterday) :- car(X), specializes(garage, Y), Y(X). % ParseError: Expected binary operator at 9:64.
+query(repair(X,garage,yesterday)).
+
+Problog response:
+Error

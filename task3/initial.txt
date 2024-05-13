@@ -1,0 +1,3 @@
+Do not give any explanation or any additional text only Problog logic.
+If there's a question at the end wrap it in: 'query(prop(X,entry)).
+Do not use any quotes or format as code. Plain text only!

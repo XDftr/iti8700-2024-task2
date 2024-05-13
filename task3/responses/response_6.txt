@@ -1,0 +1,26 @@
+Statements:
+The old tree has fallen due to the storm last night. The tree was considered the tallest in the neighborhood. The storm had wind speeds reaching up to 80 mph. It takes 50mph to uproot a tree
+
+Question:
+did a tree get uprooted?
+
+GPT response
+% Facts
+uprooted(tree).
+storm(last_night).
+tallest(tree, neighborhood).
+wind_speed(storm, 80).
+
+% Rules
+fallen(X) :- uprooted(X), storm(last_night).
+considered_tallest(X) :- tallest(tree, neighborhood).
+strong_wind(X) :- wind_speed(storm, Speed), Speed >= 50.
+
+% Queries
+query(fallen(tree)).
+query(considered_tallest(tree)).
+query(strong_wind(storm)).
+query(uprooted(tree)).
+
+Problog response:
+{fallen(tree): 1.0, considered_tallest(tree): 1.0, strong_wind(storm): 1.0, uprooted(tree): 1.0}

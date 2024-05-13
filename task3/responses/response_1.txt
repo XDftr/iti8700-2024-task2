@@ -1,0 +1,16 @@
+Statements:
+Sally teaches math at a university. The university offers 200 math classes annually. The university has a student population of 500. The university is large if it  has more than 1000 students
+
+Question:
+Is the university considered large
+
+GPT response
+teaches(sally, math).
+offers(200, math_classes).
+student_population(500).
+large_university(X) :- student_population(X), X > 1000.
+
+query(large_university(X)).
+
+Problog response:
+{large_university(X2): 0.0}

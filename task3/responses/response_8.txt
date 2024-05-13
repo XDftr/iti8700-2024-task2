@@ -1,0 +1,21 @@
+Statements:
+Children play soccer in the park every Saturday. The park has three soccer fields. The fields were renovated last year to international standards adding in a baseball field. The children play baseball on off days
+
+Question:
+Are there any other sports played in the park besides soccer?
+
+GPT response
+0.5::plays_soccer.
+0.3::plays_baseball.
+0.2::plays_other_sports.
+
+1::soccer_fields(3).
+
+renovated(last_year).
+
+plays_other_sports :- plays_baseball, renovated, soccer_fields(N), N > 3. % UnknownClause: No clauses found for 'renovated/0' at 9:39.
+
+query(plays_other_sports).
+
+Problog response:
+Error

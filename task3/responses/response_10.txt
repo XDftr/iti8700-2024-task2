@@ -1,0 +1,24 @@
+Statements:
+The musician played the violin at the concert last night.
+The concert was held at the city auditorium, which seats 1000 people.
+The violin used was a Stradivarius. the Stradivarius is 500 years old.
+The Auditorium is 50 years old
+
+Question:
+Is the Stradivarius violin older than the auditorium?
+
+GPT response
+concert.
+played(concert, musician, violin).
+held(concert, auditorium).
+seats(auditorium, 1000).
+violin_used(violin, stradivarius).
+age(stradivarius, 500).
+% missing statement for auditorium age
+
+older(stradivarius, auditorium) :- age(stradivarius, X), age(auditorium, Y), X > Y.
+
+query(older(stradivarius, auditorium)).
+
+Problog response:
+{older(stradivarius,auditorium): 0.0}

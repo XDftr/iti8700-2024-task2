@@ -1,0 +1,18 @@
+Statements:
+A cat chased a mouse in the garden today. The garden belongs to Mrs. Green, who is an avid gardener. There are over 20 species of flowers in the garden. There are only flowers in the garden
+
+Question:
+Does the garden also contain a vegetable patch?
+
+GPT response
+chased(cat,mouse,garden,today).
+belongs(garden,mrs_green).
+gardener(mrs_green).
+species(flowers,garden,20).
+contains(garden,flowers).
+
+contains(garden,vegetable_patch). % should not be here
+query(contains(garden,vegetable_patch)).
+
+Problog response:
+{contains(garden,vegetable_patch): 1.0}

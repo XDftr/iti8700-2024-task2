@@ -1,0 +1,17 @@
+Statements:
+Jane visited Paris last summer. During her visit, she stayed at a hotel near the Eiffel Tower. The hotel has been rated as four stars.  The highest-rated hotel in Paris is 5 stars
+
+Question:
+Is the hotel Jane stayed at the highest-rated hotel in Paris?
+
+GPT response
+0.3::visited(jane, paris, summer).
+0.7::stayed_at(jane, hotel_near_eiffel_tower).
+rated(hotel_near_eiffel_tower, four_stars).
+rated(highest_rated_hotel_in_paris, five_stars).
+
+highest_rated(X) :- rated(X, Rating), not exists(Rating2: (rated(_, Rating2), Rating2 > Rating)). % UnknownClause: No clauses found for 'exists/1' at 6:43.
+query(highest_rated(hotel_near_eiffel_tower)).
+
+Problog response:
+Error
